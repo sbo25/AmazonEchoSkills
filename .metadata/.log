@@ -1,0 +1,2115 @@
+!SESSION 2015-10-02 23:25:08.605 -----------------------------------------------
+eclipse.buildId=4.3.0.M20130911-1000
+java.version=1.8.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -data C:\Users\Samuel\Documents\Echo -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jdt.launching 4 4 2015-10-02 23:26:23.086
+!MESSAGE Failed to retrieve default libraries for C:\Program Files\Java\jdk1.8.0_60
+
+!ENTRY org.eclipse.jdt.launching 4 4 2015-10-02 23:26:29.377
+!MESSAGE Exception retrieving system properties
+!STACK 1
+org.eclipse.core.runtime.CoreException: Exception retrieving system properties
+	at org.eclipse.jdt.launching.AbstractVMInstall.abort(AbstractVMInstall.java:500)
+	at org.eclipse.jdt.launching.AbstractVMInstall.evaluateSystemProperties(AbstractVMInstall.java:445)
+	at org.eclipse.jdt.internal.launching.environments.ExecutionEnvironmentAnalyzer.isFoundation1_0(ExecutionEnvironmentAnalyzer.java:150)
+	at org.eclipse.jdt.internal.launching.environments.ExecutionEnvironmentAnalyzer.analyze(ExecutionEnvironmentAnalyzer.java:96)
+	at org.eclipse.jdt.internal.launching.environments.Analyzer.analyze(Analyzer.java:40)
+	at org.eclipse.jdt.internal.launching.environments.EnvironmentsManager.analyze(EnvironmentsManager.java:341)
+	at org.eclipse.jdt.internal.launching.environments.EnvironmentsManager.vmAdded(EnvironmentsManager.java:380)
+	at org.eclipse.jdt.internal.launching.environments.EnvironmentsManager.vmChanged(EnvironmentsManager.java:369)
+	at org.eclipse.jdt.launching.JavaRuntime.fireVMChanged(JavaRuntime.java:2369)
+	at org.eclipse.jdt.launching.AbstractVMInstall.setInstallLocation(AbstractVMInstall.java:138)
+	at org.eclipse.jdt.launching.VMStandin.convertToRealVM(VMStandin.java:131)
+	at org.eclipse.jdt.internal.launching.LaunchingPlugin.processVMPrefsChanged(LaunchingPlugin.java:701)
+	at org.eclipse.jdt.internal.launching.LaunchingPlugin.preferenceChange(LaunchingPlugin.java:1260)
+	at org.eclipse.core.internal.preferences.EclipsePreferences$3.run(EclipsePreferences.java:896)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.firePreferenceEvent(EclipsePreferences.java:899)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.put(EclipsePreferences.java:912)
+	at org.eclipse.jdt.internal.debug.ui.jres.JREsUpdater$1.run(JREsUpdater.java:91)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+Caused by: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 1; Content is not allowed in prolog.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at javax.xml.parsers.DocumentBuilder.parse(Unknown Source)
+	at org.eclipse.jdt.launching.AbstractVMInstall.evaluateSystemProperties(AbstractVMInstall.java:428)
+	... 17 more
+!SUBENTRY 1 org.eclipse.jdt.launching 4 150 2015-10-02 23:26:29.378
+!MESSAGE Exception retrieving system properties
+!STACK 0
+org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 1; Content is not allowed in prolog.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at javax.xml.parsers.DocumentBuilder.parse(Unknown Source)
+	at org.eclipse.jdt.launching.AbstractVMInstall.evaluateSystemProperties(AbstractVMInstall.java:428)
+	at org.eclipse.jdt.internal.launching.environments.ExecutionEnvironmentAnalyzer.isFoundation1_0(ExecutionEnvironmentAnalyzer.java:150)
+	at org.eclipse.jdt.internal.launching.environments.ExecutionEnvironmentAnalyzer.analyze(ExecutionEnvironmentAnalyzer.java:96)
+	at org.eclipse.jdt.internal.launching.environments.Analyzer.analyze(Analyzer.java:40)
+	at org.eclipse.jdt.internal.launching.environments.EnvironmentsManager.analyze(EnvironmentsManager.java:341)
+	at org.eclipse.jdt.internal.launching.environments.EnvironmentsManager.vmAdded(EnvironmentsManager.java:380)
+	at org.eclipse.jdt.internal.launching.environments.EnvironmentsManager.vmChanged(EnvironmentsManager.java:369)
+	at org.eclipse.jdt.launching.JavaRuntime.fireVMChanged(JavaRuntime.java:2369)
+	at org.eclipse.jdt.launching.AbstractVMInstall.setInstallLocation(AbstractVMInstall.java:138)
+	at org.eclipse.jdt.launching.VMStandin.convertToRealVM(VMStandin.java:131)
+	at org.eclipse.jdt.internal.launching.LaunchingPlugin.processVMPrefsChanged(LaunchingPlugin.java:701)
+	at org.eclipse.jdt.internal.launching.LaunchingPlugin.preferenceChange(LaunchingPlugin.java:1260)
+	at org.eclipse.core.internal.preferences.EclipsePreferences$3.run(EclipsePreferences.java:896)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.firePreferenceEvent(EclipsePreferences.java:899)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.put(EclipsePreferences.java:912)
+	at org.eclipse.jdt.internal.debug.ui.jres.JREsUpdater$1.run(JREsUpdater.java:91)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-10-02 23:27:21.465
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-10-02 23:27:21.465
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Samuel'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-02 23:28:10.017
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-02 23:28:10.020
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2015-10-02 23:28:31.807
+!MESSAGE Unable to update index for central|http://repo.maven.apache.org/maven2: C:\Users\Samuel\.m2\repository\.cache\m2e\1.4.0\26522e0d83a422eed93329ece7565cfc\nexus-maven-repository-index.zip (The system cannot find the file specified)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-02 23:29:35.028
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-02 23:29:35.031
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-02 23:29:36.621
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-02 23:29:36.631
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.core.resources 4 2 2015-10-02 23:38:43.014
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 1
+org.eclipse.core.runtime.CoreException: Error saving build states
+	at org.eclipse.jdt.internal.core.JavaModelManager.saving(JavaModelManager.java:4304)
+	at org.eclipse.core.internal.resources.SaveManager.executeLifecycle(SaveManager.java:383)
+	at org.eclipse.core.internal.resources.SaveManager$1.run(SaveManager.java:192)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.resources.SaveManager.broadcastLifecycle(SaveManager.java:195)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1130)
+	at org.eclipse.core.internal.resources.Workspace.save(Workspace.java:2376)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$5.run(IDEWorkbenchAdvisor.java:508)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+Contains: Error saving last build state for project AlexaSkillsKitJava
+java.io.IOException: There is not enough space on the disk
+	at java.io.FileOutputStream.writeBytes(Native Method)
+	at java.io.FileOutputStream.write(Unknown Source)
+	at java.io.BufferedOutputStream.flushBuffer(Unknown Source)
+	at java.io.BufferedOutputStream.flush(Unknown Source)
+	at java.io.DataOutputStream.flush(Unknown Source)
+	at java.io.FilterOutputStream.close(Unknown Source)
+	at org.eclipse.jdt.internal.core.JavaModelManager.saveBuiltState(JavaModelManager.java:3954)
+	at org.eclipse.jdt.internal.core.JavaModelManager.saveState(JavaModelManager.java:3930)
+	at org.eclipse.jdt.internal.core.JavaModelManager.saving(JavaModelManager.java:4294)
+	at org.eclipse.core.internal.resources.SaveManager.executeLifecycle(SaveManager.java:383)
+	at org.eclipse.core.internal.resources.SaveManager$1.run(SaveManager.java:192)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.resources.SaveManager.broadcastLifecycle(SaveManager.java:195)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1130)
+	at org.eclipse.core.internal.resources.Workspace.save(Workspace.java:2376)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$5.run(IDEWorkbenchAdvisor.java:508)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+	Suppressed: java.io.IOException: There is not enough space on the disk
+		at java.io.FileOutputStream.writeBytes(Native Method)
+		at java.io.FileOutputStream.write(Unknown Source)
+		at java.io.BufferedOutputStream.flushBuffer(Unknown Source)
+		at java.io.BufferedOutputStream.flush(Unknown Source)
+		at java.io.FilterOutputStream.close(Unknown Source)
+		... 12 more
+!SUBENTRY 1 org.eclipse.jdt.core 4 4 2015-10-02 23:38:43.015
+!MESSAGE Error saving build states
+!SUBENTRY 2 org.eclipse.jdt.core 4 2 2015-10-02 23:38:43.015
+!MESSAGE Error saving last build state for project AlexaSkillsKitJava
+!STACK 0
+java.io.IOException: There is not enough space on the disk
+	at java.io.FileOutputStream.writeBytes(Native Method)
+	at java.io.FileOutputStream.write(Unknown Source)
+	at java.io.BufferedOutputStream.flushBuffer(Unknown Source)
+	at java.io.BufferedOutputStream.flush(Unknown Source)
+	at java.io.DataOutputStream.flush(Unknown Source)
+	at java.io.FilterOutputStream.close(Unknown Source)
+	at org.eclipse.jdt.internal.core.JavaModelManager.saveBuiltState(JavaModelManager.java:3954)
+	at org.eclipse.jdt.internal.core.JavaModelManager.saveState(JavaModelManager.java:3930)
+	at org.eclipse.jdt.internal.core.JavaModelManager.saving(JavaModelManager.java:4294)
+	at org.eclipse.core.internal.resources.SaveManager.executeLifecycle(SaveManager.java:383)
+	at org.eclipse.core.internal.resources.SaveManager$1.run(SaveManager.java:192)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.resources.SaveManager.broadcastLifecycle(SaveManager.java:195)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1130)
+	at org.eclipse.core.internal.resources.Workspace.save(Workspace.java:2376)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$5.run(IDEWorkbenchAdvisor.java:508)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+	Suppressed: java.io.IOException: There is not enough space on the disk
+		at java.io.FileOutputStream.writeBytes(Native Method)
+		at java.io.FileOutputStream.write(Unknown Source)
+		at java.io.BufferedOutputStream.flushBuffer(Unknown Source)
+		at java.io.BufferedOutputStream.flush(Unknown Source)
+		at java.io.FilterOutputStream.close(Unknown Source)
+		... 12 more
+!SUBENTRY 1 org.eclipse.jdt.core 4 2 2015-10-02 23:38:43.015
+!MESSAGE Error saving last build state for project AlexaSkillsKitJava
+!STACK 0
+java.io.IOException: There is not enough space on the disk
+	at java.io.FileOutputStream.writeBytes(Native Method)
+	at java.io.FileOutputStream.write(Unknown Source)
+	at java.io.BufferedOutputStream.flushBuffer(Unknown Source)
+	at java.io.BufferedOutputStream.flush(Unknown Source)
+	at java.io.DataOutputStream.flush(Unknown Source)
+	at java.io.FilterOutputStream.close(Unknown Source)
+	at org.eclipse.jdt.internal.core.JavaModelManager.saveBuiltState(JavaModelManager.java:3954)
+	at org.eclipse.jdt.internal.core.JavaModelManager.saveState(JavaModelManager.java:3930)
+	at org.eclipse.jdt.internal.core.JavaModelManager.saving(JavaModelManager.java:4294)
+	at org.eclipse.core.internal.resources.SaveManager.executeLifecycle(SaveManager.java:383)
+	at org.eclipse.core.internal.resources.SaveManager$1.run(SaveManager.java:192)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.resources.SaveManager.broadcastLifecycle(SaveManager.java:195)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1130)
+	at org.eclipse.core.internal.resources.Workspace.save(Workspace.java:2376)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$5.run(IDEWorkbenchAdvisor.java:508)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+	Suppressed: java.io.IOException: There is not enough space on the disk
+		at java.io.FileOutputStream.writeBytes(Native Method)
+		at java.io.FileOutputStream.write(Unknown Source)
+		at java.io.BufferedOutputStream.flushBuffer(Unknown Source)
+		at java.io.BufferedOutputStream.flush(Unknown Source)
+		at java.io.FilterOutputStream.close(Unknown Source)
+		... 12 more
+
+!ENTRY org.eclipse.ui.ide 4 4 2015-10-02 23:38:44.888
+!MESSAGE Problems saving workspace
+
+!ENTRY org.eclipse.ui.ide 4 1 2015-10-02 23:38:44.889
+!MESSAGE Problems occurred while trying to save the state of the workbench.
+!SUBENTRY 1 org.eclipse.core.resources 4 568 2015-10-02 23:38:44.889
+!MESSAGE Could not write workspace metadata 'C:/Users/Samuel/Documents/Echo/.metadata/.plugins/org.eclipse.core.resources/.root/1.tree'.
+!STACK 0
+java.io.IOException: There is not enough space on the disk
+	at java.io.FileOutputStream.writeBytes(Native Method)
+	at java.io.FileOutputStream.write(Unknown Source)
+	at java.io.BufferedOutputStream.flushBuffer(Unknown Source)
+	at java.io.BufferedOutputStream.write(Unknown Source)
+	at org.eclipse.core.internal.localstore.SafeFileOutputStream.write(SafeFileOutputStream.java:132)
+	at java.io.OutputStream.write(Unknown Source)
+	at java.io.DataOutputStream.write(Unknown Source)
+	at java.io.DataOutputStream.writeUTF(Unknown Source)
+	at java.io.DataOutputStream.writeUTF(Unknown Source)
+	at org.eclipse.core.internal.dtree.DataTreeWriter.writeNode(DataTreeWriter.java:57)
+	at org.eclipse.core.internal.dtree.DataTreeWriter.writeNode(DataTreeWriter.java:89)
+	at org.eclipse.core.internal.dtree.DataTreeWriter.writeNode(DataTreeWriter.java:89)
+	at org.eclipse.core.internal.dtree.DataTreeWriter.writeNode(DataTreeWriter.java:89)
+	at org.eclipse.core.internal.dtree.DataTreeWriter.writeNode(DataTreeWriter.java:89)
+	at org.eclipse.core.internal.dtree.DataTreeWriter.writeNode(DataTreeWriter.java:89)
+	at org.eclipse.core.internal.dtree.DataTreeWriter.writeNode(DataTreeWriter.java:89)
+	at org.eclipse.core.internal.dtree.DataTreeWriter.writeNode(DataTreeWriter.java:89)
+	at org.eclipse.core.internal.dtree.DataTreeWriter.writeTree(DataTreeWriter.java:182)
+	at org.eclipse.core.internal.watson.ElementTreeWriter.writeTree(ElementTreeWriter.java:236)
+	at org.eclipse.core.internal.watson.ElementTreeWriter.writeDeltaChain(ElementTreeWriter.java:194)
+	at org.eclipse.core.internal.resources.SaveManager.writeTree(SaveManager.java:1953)
+	at org.eclipse.core.internal.resources.SaveManager.saveTree(SaveManager.java:1355)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1134)
+	at org.eclipse.core.internal.resources.Workspace.save(Workspace.java:2376)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$5.run(IDEWorkbenchAdvisor.java:508)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2015-10-02 23:38:45.021
+!MESSAGE Can't write workspace state
+!SESSION 2015-10-02 23:52:40.251 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2015-10-02 23:53:16.519
+!MESSAGE [SCR] Found components with duplicated names! Details: 
+Component1 : Component[
+	name = org.eclipse.equinox.p2.transport.ecf
+	activate = activate
+	deactivate = deactivate
+	modified = 
+	configuration-policy = optional
+	factory = null
+	autoenable = true
+	immediate = false
+	implementation = org.eclipse.equinox.internal.p2.transport.ecf.ECFTransportComponent
+	state = Unsatisfied
+	properties = {p2.agent.servicename=org.eclipse.equinox.internal.p2.repository.Transport}
+	serviceFactory = false
+	serviceInterface = [org.eclipse.equinox.p2.core.spi.IAgentServiceFactory]
+	references = null
+	located in bundle = org.eclipse.equinox.p2.transport.ecf_1.1.0.v20130516-1858 [982]
+]
+Component2: Component[
+	name = org.eclipse.equinox.p2.transport.ecf
+	activate = activate
+	deactivate = deactivate
+	modified = 
+	configuration-policy = optional
+	factory = null
+	autoenable = true
+	immediate = false
+	implementation = org.eclipse.equinox.internal.p2.transport.ecf.ECFTransportComponent
+	state = Unsatisfied
+	properties = {p2.agent.servicename=org.eclipse.equinox.internal.p2.repository.Transport}
+	serviceFactory = false
+	serviceInterface = [org.eclipse.equinox.p2.core.spi.IAgentServiceFactory]
+	references = null
+	located in bundle = org.eclipse.equinox.p2.transport.ecf_1.1.100.v20150521-1342 [347]
+]  
+
+!ENTRY org.eclipse.equinox.event 2 0 2015-10-02 23:53:16.535
+!MESSAGE [SCR] Found components with duplicated names! Details: 
+Component1 : Component[
+	name = org.eclipse.equinox.event
+	activate = activate
+	deactivate = deactivate
+	modified = 
+	configuration-policy = optional
+	factory = null
+	autoenable = true
+	immediate = false
+	implementation = org.eclipse.equinox.internal.event.EventComponent
+	state = Unsatisfied
+	properties = 
+	serviceFactory = false
+	serviceInterface = [org.osgi.service.event.EventAdmin]
+	references = null
+	located in bundle = org.eclipse.equinox.event_1.3.0.v20130327-1442 [975]
+]
+Component2: Component[
+	name = org.eclipse.equinox.event
+	activate = activate
+	deactivate = deactivate
+	modified = 
+	configuration-policy = optional
+	factory = null
+	autoenable = true
+	immediate = false
+	implementation = org.eclipse.equinox.internal.event.EventComponent
+	state = Unsatisfied
+	properties = 
+	serviceFactory = false
+	serviceInterface = [org.osgi.service.event.EventAdmin]
+	references = null
+	located in bundle = org.eclipse.equinox.event_1.3.100.v20140115-1647 [315]
+]  
+
+!ENTRY org.eclipse.e4.ui.di 2 0 2015-10-02 23:53:16.535
+!MESSAGE [SCR] Found components with duplicated names! Details: 
+Component1 : Component[
+	name = org.eclipse.e4.ui.di.events
+	activate = activate
+	deactivate = deactivate
+	modified = 
+	configuration-policy = optional
+	factory = null
+	autoenable = true
+	immediate = false
+	implementation = org.eclipse.e4.ui.internal.di.UIEventObjectSupplier
+	state = Unsatisfied
+	properties = {dependency.injection.annotation=org.eclipse.e4.ui.di.UIEventTopic}
+	serviceFactory = false
+	serviceInterface = [org.eclipse.e4.core.di.suppliers.ExtendedObjectSupplier]
+	references = null
+	located in bundle = org.eclipse.e4.ui.di_1.0.0.v20130515-1857 [960]
+]
+Component2: Component[
+	name = org.eclipse.e4.ui.di.events
+	activate = activate
+	deactivate = deactivate
+	modified = 
+	configuration-policy = optional
+	factory = null
+	autoenable = true
+	immediate = false
+	implementation = org.eclipse.e4.ui.internal.di.UIEventObjectSupplier
+	state = Unsatisfied
+	properties = {dependency.injection.annotation=org.eclipse.e4.ui.di.UIEventTopic}
+	serviceFactory = false
+	serviceInterface = [org.eclipse.e4.core.di.suppliers.ExtendedObjectSupplier]
+	references = null
+	located in bundle = org.eclipse.e4.ui.di_1.1.0.v20150422-0725 [248]
+]  
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2015-10-02 23:53:19.488
+!MESSAGE [SCR] Found components with duplicated names! Details: 
+Component1 : Component[
+	name = org.eclipse.equinox.p2.transport.ecf
+	activate = activate
+	deactivate = deactivate
+	modified = 
+	configuration-policy = optional
+	factory = null
+	autoenable = true
+	immediate = false
+	implementation = org.eclipse.equinox.internal.p2.transport.ecf.ECFTransportComponent
+	state = Unsatisfied
+	properties = {p2.agent.servicename=org.eclipse.equinox.internal.p2.repository.Transport}
+	serviceFactory = false
+	serviceInterface = [org.eclipse.equinox.p2.core.spi.IAgentServiceFactory]
+	references = null
+	located in bundle = org.eclipse.equinox.p2.transport.ecf_1.1.0.v20130516-1858 [982]
+]
+Component2: Component[
+	name = org.eclipse.equinox.p2.transport.ecf
+	activate = activate
+	deactivate = deactivate
+	modified = 
+	configuration-policy = optional
+	factory = null
+	autoenable = true
+	immediate = false
+	implementation = org.eclipse.equinox.internal.p2.transport.ecf.ECFTransportComponent
+	state = Unsatisfied
+	properties = {p2.agent.servicename=org.eclipse.equinox.internal.p2.repository.Transport}
+	serviceFactory = false
+	serviceInterface = [org.eclipse.equinox.p2.core.spi.IAgentServiceFactory]
+	references = null
+	located in bundle = org.eclipse.equinox.p2.transport.ecf_1.1.100.v20150521-1342 [347]
+]  
+
+!ENTRY org.eclipse.recommenders.completion.rcp.calls 4 0 2015-10-02 23:53:19.910
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.recommenders.completion.rcp.calls [1063]
+  Unresolved requirement: Require-Bundle: org.eclipse.recommenders.completion.rcp
+    -> Bundle-SymbolicName: org.eclipse.recommenders.completion.rcp; bundle-version="2.2.4.v20150914-0857"; singleton:="true"
+       org.eclipse.recommenders.completion.rcp [693]
+         No resolution report for the bundle.  Unresolved requirement: Require-Bundle: org.eclipse.recommenders.extdoc.rcp; resolution:="optional"
+    -> Bundle-SymbolicName: org.eclipse.recommenders.extdoc.rcp; bundle-version="1.0.5.v20130822-0858-b90"; singleton:="true"
+       org.eclipse.recommenders.extdoc.rcp [1071]
+         No resolution report for the bundle.  Bundle was not resolved because of a uses contraint violation.
+  org.osgi.service.resolver.ResolutionException: Uses constraint violation. Unable to resolve resource org.eclipse.recommenders.completion.rcp.calls [osgi.identity; osgi.identity="org.eclipse.recommenders.completion.rcp.calls"; type="osgi.bundle"; version:Version="1.0.5.v20130822-0858-b90"; singleton:="true"] because it is exposed to package 'com.google.common.primitives' from resources com.google.guava [osgi.identity; osgi.identity="com.google.guava"; type="osgi.bundle"; version:Version="10.0.1.v201203051515"] and com.google.guava [osgi.identity; osgi.identity="com.google.guava"; type="osgi.bundle"; version:Version="15.0.0.v201403281430"] via two dependency chains.
+
+Chain 1:
+  org.eclipse.recommenders.completion.rcp.calls [osgi.identity; osgi.identity="org.eclipse.recommenders.completion.rcp.calls"; type="osgi.bundle"; version:Version="1.0.5.v20130822-0858-b90"; singleton:="true"]
+    require: (&(osgi.wiring.bundle=com.google.guava)(&(bundle-version>=10.0.0)(!(bundle-version>=11.0.0))))
+     |
+    provide: osgi.wiring.bundle: com.google.guava
+  com.google.guava [osgi.identity; osgi.identity="com.google.guava"; type="osgi.bundle"; version:Version="10.0.1.v201203051515"]
+
+Chain 2:
+  org.eclipse.recommenders.completion.rcp.calls [osgi.identity; osgi.identity="org.eclipse.recommenders.completion.rcp.calls"; type="osgi.bundle"; version:Version="1.0.5.v20130822-0858-b90"; singleton:="true"]
+    require: (osgi.wiring.bundle=org.eclipse.recommenders.utils)
+     |
+    provide: osgi.wiring.bundle; bundle-version:Version="2.2.4.v20150914-0857"; osgi.wiring.bundle="org.eclipse.recommenders.utils"
+  org.eclipse.recommenders.utils [osgi.identity; osgi.identity="org.eclipse.recommenders.utils"; type="osgi.bundle"; version:Version="2.2.4.v20150914-0857"]
+    import: (&(osgi.wiring.package=com.google.common.collect)(&(version>=15.0.0)(!(version>=16.0.0))))
+     |
+    export: osgi.wiring.package: com.google.common.collect; uses:=com.google.common.primitives
+    export: osgi.wiring.package=com.google.common.primitives
+  com.google.guava [osgi.identity; osgi.identity="com.google.guava"; type="osgi.bundle"; version:Version="15.0.0.v201403281430"]
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1498)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.recommenders.completion.rcp.chain 4 0 2015-10-02 23:53:19.925
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.recommenders.completion.rcp.chain [1064]
+  Unresolved requirement: Require-Bundle: org.eclipse.recommenders.completion.rcp
+    -> Bundle-SymbolicName: org.eclipse.recommenders.completion.rcp; bundle-version="2.2.4.v20150914-0857"; singleton:="true"
+       org.eclipse.recommenders.completion.rcp [693]
+         No resolution report for the bundle.  Bundle was not resolved because of a uses contraint violation.
+  org.osgi.service.resolver.ResolutionException: Uses constraint violation. Unable to resolve resource org.eclipse.recommenders.completion.rcp.chain [osgi.identity; osgi.identity="org.eclipse.recommenders.completion.rcp.chain"; type="osgi.bundle"; version:Version="1.0.5.v20130822-0858-b90"; singleton:="true"] because it is exposed to package 'com.google.common.primitives' from resources com.google.guava [osgi.identity; osgi.identity="com.google.guava"; type="osgi.bundle"; version:Version="10.0.1.v201203051515"] and com.google.guava [osgi.identity; osgi.identity="com.google.guava"; type="osgi.bundle"; version:Version="15.0.0.v201403281430"] via two dependency chains.
+
+Chain 1:
+  org.eclipse.recommenders.completion.rcp.chain [osgi.identity; osgi.identity="org.eclipse.recommenders.completion.rcp.chain"; type="osgi.bundle"; version:Version="1.0.5.v20130822-0858-b90"; singleton:="true"]
+    require: (&(osgi.wiring.bundle=com.google.guava)(&(bundle-version>=10.0.0)(!(bundle-version>=11.0.0))))
+     |
+    provide: osgi.wiring.bundle: com.google.guava
+  com.google.guava [osgi.identity; osgi.identity="com.google.guava"; type="osgi.bundle"; version:Version="10.0.1.v201203051515"]
+
+Chain 2:
+  org.eclipse.recommenders.completion.rcp.chain [osgi.identity; osgi.identity="org.eclipse.recommenders.completion.rcp.chain"; type="osgi.bundle"; version:Version="1.0.5.v20130822-0858-b90"; singleton:="true"]
+    require: (osgi.wiring.bundle=org.eclipse.recommenders.utils)
+     |
+    provide: osgi.wiring.bundle; bundle-version:Version="2.2.4.v20150914-0857"; osgi.wiring.bundle="org.eclipse.recommenders.utils"
+  org.eclipse.recommenders.utils [osgi.identity; osgi.identity="org.eclipse.recommenders.utils"; type="osgi.bundle"; version:Version="2.2.4.v20150914-0857"]
+    import: (&(osgi.wiring.package=com.google.common.collect)(&(version>=15.0.0)(!(version>=16.0.0))))
+     |
+    export: osgi.wiring.package: com.google.common.collect; uses:=com.google.common.primitives
+    export: osgi.wiring.package=com.google.common.primitives
+  com.google.guava [osgi.identity; osgi.identity="com.google.guava"; type="osgi.bundle"; version:Version="15.0.0.v201403281430"]
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1498)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.recommenders.completion.rcp.overrides 4 0 2015-10-02 23:53:19.957
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.recommenders.completion.rcp.overrides [1066]
+  Unresolved requirement: Require-Bundle: org.eclipse.recommenders.completion.rcp
+    -> Bundle-SymbolicName: org.eclipse.recommenders.completion.rcp; bundle-version="2.2.4.v20150914-0857"; singleton:="true"
+       org.eclipse.recommenders.completion.rcp [693]
+         No resolution report for the bundle.  Bundle was not resolved because of a uses contraint violation.
+  org.osgi.service.resolver.ResolutionException: Uses constraint violation. Unable to resolve resource org.eclipse.recommenders.completion.rcp.overrides [osgi.identity; osgi.identity="org.eclipse.recommenders.completion.rcp.overrides"; type="osgi.bundle"; version:Version="1.0.5.v20130822-0858-b90"; singleton:="true"] because it is exposed to package 'com.google.common.primitives' from resources com.google.guava [osgi.identity; osgi.identity="com.google.guava"; type="osgi.bundle"; version:Version="10.0.1.v201203051515"] and com.google.guava [osgi.identity; osgi.identity="com.google.guava"; type="osgi.bundle"; version:Version="15.0.0.v201403281430"] via two dependency chains.
+
+Chain 1:
+  org.eclipse.recommenders.completion.rcp.overrides [osgi.identity; osgi.identity="org.eclipse.recommenders.completion.rcp.overrides"; type="osgi.bundle"; version:Version="1.0.5.v20130822-0858-b90"; singleton:="true"]
+    require: (&(osgi.wiring.bundle=com.google.guava)(&(bundle-version>=10.0.0)(!(bundle-version>=11.0.0))))
+     |
+    provide: osgi.wiring.bundle: com.google.guava
+  com.google.guava [osgi.identity; osgi.identity="com.google.guava"; type="osgi.bundle"; version:Version="10.0.1.v201203051515"]
+
+Chain 2:
+  org.eclipse.recommenders.completion.rcp.overrides [osgi.identity; osgi.identity="org.eclipse.recommenders.completion.rcp.overrides"; type="osgi.bundle"; version:Version="1.0.5.v20130822-0858-b90"; singleton:="true"]
+    require: (osgi.wiring.bundle=org.eclipse.recommenders.utils)
+     |
+    provide: osgi.wiring.bundle; bundle-version:Version="2.2.4.v20150914-0857"; osgi.wiring.bundle="org.eclipse.recommenders.utils"
+  org.eclipse.recommenders.utils [osgi.identity; osgi.identity="org.eclipse.recommenders.utils"; type="osgi.bundle"; version:Version="2.2.4.v20150914-0857"]
+    import: (&(osgi.wiring.package=com.google.common.collect)(&(version>=15.0.0)(!(version>=16.0.0))))
+     |
+    export: osgi.wiring.package: com.google.common.collect; uses:=com.google.common.primitives
+    export: osgi.wiring.package=com.google.common.primitives
+  com.google.guava [osgi.identity; osgi.identity="com.google.guava"; type="osgi.bundle"; version:Version="15.0.0.v201403281430"]
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1498)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.recommenders.completion.rcp.templates 4 0 2015-10-02 23:53:19.972
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.recommenders.completion.rcp.templates [1068]
+  Unresolved requirement: Require-Bundle: org.eclipse.recommenders.completion.rcp.calls
+    -> Bundle-SymbolicName: org.eclipse.recommenders.completion.rcp.calls; bundle-version="1.0.5.v20130822-0858-b90"; singleton:="true"
+       org.eclipse.recommenders.completion.rcp.calls [1063]
+         Unresolved requirement: Require-Bundle: org.eclipse.recommenders.completion.rcp
+           -> Bundle-SymbolicName: org.eclipse.recommenders.completion.rcp; bundle-version="2.2.4.v20150914-0857"; singleton:="true"
+              org.eclipse.recommenders.completion.rcp [693]
+                No resolution report for the bundle.         Unresolved requirement: Require-Bundle: org.eclipse.recommenders.extdoc.rcp; resolution:="optional"
+           -> Bundle-SymbolicName: org.eclipse.recommenders.extdoc.rcp; bundle-version="1.0.5.v20130822-0858-b90"; singleton:="true"
+              org.eclipse.recommenders.extdoc.rcp [1071]
+                No resolution report for the bundle.  Unresolved requirement: Require-Bundle: org.eclipse.recommenders.completion.rcp
+    -> Bundle-SymbolicName: org.eclipse.recommenders.completion.rcp; bundle-version="2.2.4.v20150914-0857"; singleton:="true"
+  Bundle was not resolved because of a uses contraint violation.
+  org.osgi.service.resolver.ResolutionException: Uses constraint violation. Unable to resolve resource org.eclipse.recommenders.completion.rcp.templates [osgi.identity; osgi.identity="org.eclipse.recommenders.completion.rcp.templates"; type="osgi.bundle"; version:Version="1.0.5.v20130822-0858-b90"; singleton:="true"] because it is exposed to package 'com.google.common.primitives' from resources com.google.guava [osgi.identity; osgi.identity="com.google.guava"; type="osgi.bundle"; version:Version="10.0.1.v201203051515"] and com.google.guava [osgi.identity; osgi.identity="com.google.guava"; type="osgi.bundle"; version:Version="15.0.0.v201403281430"] via two dependency chains.
+
+Chain 1:
+  org.eclipse.recommenders.completion.rcp.templates [osgi.identity; osgi.identity="org.eclipse.recommenders.completion.rcp.templates"; type="osgi.bundle"; version:Version="1.0.5.v20130822-0858-b90"; singleton:="true"]
+    require: (&(osgi.wiring.bundle=com.google.guava)(&(bundle-version>=10.0.0)(!(bundle-version>=11.0.0))))
+     |
+    provide: osgi.wiring.bundle: com.google.guava
+  com.google.guava [osgi.identity; osgi.identity="com.google.guava"; type="osgi.bundle"; version:Version="10.0.1.v201203051515"]
+
+Chain 2:
+  org.eclipse.recommenders.completion.rcp.templates [osgi.identity; osgi.identity="org.eclipse.recommenders.completion.rcp.templates"; type="osgi.bundle"; version:Version="1.0.5.v20130822-0858-b90"; singleton:="true"]
+    require: (osgi.wiring.bundle=org.eclipse.recommenders.utils)
+     |
+    provide: osgi.wiring.bundle; bundle-version:Version="2.2.4.v20150914-0857"; osgi.wiring.bundle="org.eclipse.recommenders.utils"
+  org.eclipse.recommenders.utils [osgi.identity; osgi.identity="org.eclipse.recommenders.utils"; type="osgi.bundle"; version:Version="2.2.4.v20150914-0857"]
+    import: (&(osgi.wiring.package=com.google.common.collect)(&(version>=15.0.0)(!(version>=16.0.0))))
+     |
+    export: osgi.wiring.package: com.google.common.collect; uses:=com.google.common.primitives
+    export: osgi.wiring.package=com.google.common.primitives
+  com.google.guava [osgi.identity; osgi.identity="com.google.guava"; type="osgi.bundle"; version:Version="15.0.0.v201403281430"]
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1498)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.recommenders.extdoc.rcp 4 0 2015-10-02 23:53:19.988
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.recommenders.extdoc.rcp [1071]
+  Bundle was not resolved because of a uses contraint violation.
+  org.osgi.service.resolver.ResolutionException: Uses constraint violation. Unable to resolve resource org.eclipse.recommenders.extdoc.rcp [osgi.identity; osgi.identity="org.eclipse.recommenders.extdoc.rcp"; type="osgi.bundle"; version:Version="1.0.5.v20130822-0858-b90"; singleton:="true"] because it is exposed to package 'com.google.common.primitives' from resources com.google.guava [osgi.identity; osgi.identity="com.google.guava"; type="osgi.bundle"; version:Version="10.0.1.v201203051515"] and com.google.guava [osgi.identity; osgi.identity="com.google.guava"; type="osgi.bundle"; version:Version="15.0.0.v201403281430"] via two dependency chains.
+
+Chain 1:
+  org.eclipse.recommenders.extdoc.rcp [osgi.identity; osgi.identity="org.eclipse.recommenders.extdoc.rcp"; type="osgi.bundle"; version:Version="1.0.5.v20130822-0858-b90"; singleton:="true"]
+    require: (&(osgi.wiring.bundle=com.google.guava)(&(bundle-version>=10.0.0)(!(bundle-version>=11.0.0))))
+     |
+    provide: osgi.wiring.bundle: com.google.guava
+  com.google.guava [osgi.identity; osgi.identity="com.google.guava"; type="osgi.bundle"; version:Version="10.0.1.v201203051515"]
+
+Chain 2:
+  org.eclipse.recommenders.extdoc.rcp [osgi.identity; osgi.identity="org.eclipse.recommenders.extdoc.rcp"; type="osgi.bundle"; version:Version="1.0.5.v20130822-0858-b90"; singleton:="true"]
+    require: (osgi.wiring.bundle=org.eclipse.recommenders.utils)
+     |
+    provide: osgi.wiring.bundle; bundle-version:Version="2.2.4.v20150914-0857"; osgi.wiring.bundle="org.eclipse.recommenders.utils"
+  org.eclipse.recommenders.utils [osgi.identity; osgi.identity="org.eclipse.recommenders.utils"; type="osgi.bundle"; version:Version="2.2.4.v20150914-0857"]
+    import: (&(osgi.wiring.package=com.google.common.collect)(&(version>=15.0.0)(!(version>=16.0.0))))
+     |
+    export: osgi.wiring.package: com.google.common.collect; uses:=com.google.common.primitives
+    export: osgi.wiring.package=com.google.common.primitives
+  com.google.guava [osgi.identity; osgi.identity="com.google.guava"; type="osgi.bundle"; version:Version="15.0.0.v201403281430"]
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1498)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.core.resources 2 10035 2015-10-02 23:53:30.410
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.m2e.logback.configuration 2 0 2015-10-02 23:53:30.629
+!MESSAGE Exception while setting up logging:BundleContext is no longer valid
+!STACK 0
+java.lang.IllegalStateException: BundleContext is no longer valid
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.checkValid(BundleContextImpl.java:983)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.getBundle(BundleContextImpl.java:129)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.configureLogback(LogPlugin.java:116)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.access$2(LogPlugin.java:107)
+	at org.eclipse.m2e.logback.configuration.LogPlugin$1.run(LogPlugin.java:62)
+	at java.util.TimerThread.mainLoop(Unknown Source)
+	at java.util.TimerThread.run(Unknown Source)
+
+!ENTRY org.eclipse.jdt.launching 4 4 2015-10-02 23:53:44.766
+!MESSAGE Failed to retrieve default libraries for C:\Program Files\Java\jdk1.8.0_60
+
+!ENTRY org.eclipse.jdt.launching 4 4 2015-10-02 23:53:44.842
+!MESSAGE Exception retrieving system properties: "C:\Program Files\Java\jdk1.8.0_60\bin\javaw.exe" -Xmx16m -classpath C:\Users\Samuel\Documents\eclipse\configuration\org.eclipse.osgi\384\0\.cp\lib\launchingsupport.jar org.eclipse.jdt.internal.launching.support.LegacySystemProperties java.specification.name java.specification.version java.version
+!STACK 1
+org.eclipse.core.runtime.CoreException: Exception retrieving system properties: "C:\Program Files\Java\jdk1.8.0_60\bin\javaw.exe" -Xmx16m -classpath C:\Users\Samuel\Documents\eclipse\configuration\org.eclipse.osgi\384\0\.cp\lib\launchingsupport.jar org.eclipse.jdt.internal.launching.support.LegacySystemProperties java.specification.name java.specification.version java.version
+	at org.eclipse.jdt.launching.AbstractVMInstall.abort(AbstractVMInstall.java:512)
+	at org.eclipse.jdt.launching.AbstractVMInstall.evaluateSystemProperties(AbstractVMInstall.java:455)
+	at org.eclipse.jdt.internal.launching.environments.ExecutionEnvironmentAnalyzer.isFoundation1_0(ExecutionEnvironmentAnalyzer.java:159)
+	at org.eclipse.jdt.internal.launching.environments.ExecutionEnvironmentAnalyzer.analyze(ExecutionEnvironmentAnalyzer.java:98)
+	at org.eclipse.jdt.internal.launching.environments.Analyzer.analyze(Analyzer.java:41)
+	at org.eclipse.jdt.internal.launching.environments.EnvironmentsManager.analyze(EnvironmentsManager.java:344)
+	at org.eclipse.jdt.internal.launching.environments.EnvironmentsManager.vmAdded(EnvironmentsManager.java:386)
+	at org.eclipse.jdt.launching.JavaRuntime.fireVMAdded(JavaRuntime.java:2395)
+	at org.eclipse.jdt.launching.JavaRuntime.initializeVMs(JavaRuntime.java:2769)
+	at org.eclipse.jdt.launching.JavaRuntime.getVMInstallTypes(JavaRuntime.java:539)
+	at org.eclipse.jdt.launching.JavaRuntime.getVMInstallType(JavaRuntime.java:421)
+	at org.eclipse.jdt.internal.launching.JREContainerInitializer.resolveVM(JREContainerInitializer.java:151)
+	at org.eclipse.jdt.internal.launching.JREContainerInitializer.initialize(JREContainerInitializer.java:59)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeContainer(JavaModelManager.java:2868)
+	at org.eclipse.jdt.internal.core.JavaModelManager$10.run(JavaModelManager.java:2774)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeAllContainers(JavaModelManager.java:2812)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getClasspathContainer(JavaModelManager.java:1895)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainer(JavaCore.java:3298)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2693)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2857)
+	at org.eclipse.jdt.internal.core.ClasspathChange.generateDelta(ClasspathChange.java:235)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.resourceChanged(DeltaProcessor.java:2032)
+	at org.eclipse.jdt.internal.core.DeltaProcessingState.resourceChanged(DeltaProcessingState.java:477)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:373)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1470)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:312)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:252)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:247)
+	at org.eclipse.rse.internal.files.ui.resources.SystemRemoteEditManager.createRemoteEditProject(SystemRemoteEditManager.java:334)
+	at org.eclipse.rse.internal.files.ui.resources.SystemRemoteEditManager.getRemoteEditProject(SystemRemoteEditManager.java:284)
+	at org.eclipse.rse.internal.files.ui.Activator$InitRemoteEditJob.run(Activator.java:73)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 1; Content is not allowed in prolog.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at javax.xml.parsers.DocumentBuilder.parse(Unknown Source)
+	at org.eclipse.jdt.launching.AbstractVMInstall.evaluateSystemProperties(AbstractVMInstall.java:437)
+	... 34 more
+!SUBENTRY 1 org.eclipse.jdt.launching 4 150 2015-10-02 23:53:44.843
+!MESSAGE Exception retrieving system properties: "C:\Program Files\Java\jdk1.8.0_60\bin\javaw.exe" -Xmx16m -classpath C:\Users\Samuel\Documents\eclipse\configuration\org.eclipse.osgi\384\0\.cp\lib\launchingsupport.jar org.eclipse.jdt.internal.launching.support.LegacySystemProperties java.specification.name java.specification.version java.version
+!STACK 0
+org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 1; Content is not allowed in prolog.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at javax.xml.parsers.DocumentBuilder.parse(Unknown Source)
+	at org.eclipse.jdt.launching.AbstractVMInstall.evaluateSystemProperties(AbstractVMInstall.java:437)
+	at org.eclipse.jdt.internal.launching.environments.ExecutionEnvironmentAnalyzer.isFoundation1_0(ExecutionEnvironmentAnalyzer.java:159)
+	at org.eclipse.jdt.internal.launching.environments.ExecutionEnvironmentAnalyzer.analyze(ExecutionEnvironmentAnalyzer.java:98)
+	at org.eclipse.jdt.internal.launching.environments.Analyzer.analyze(Analyzer.java:41)
+	at org.eclipse.jdt.internal.launching.environments.EnvironmentsManager.analyze(EnvironmentsManager.java:344)
+	at org.eclipse.jdt.internal.launching.environments.EnvironmentsManager.vmAdded(EnvironmentsManager.java:386)
+	at org.eclipse.jdt.launching.JavaRuntime.fireVMAdded(JavaRuntime.java:2395)
+	at org.eclipse.jdt.launching.JavaRuntime.initializeVMs(JavaRuntime.java:2769)
+	at org.eclipse.jdt.launching.JavaRuntime.getVMInstallTypes(JavaRuntime.java:539)
+	at org.eclipse.jdt.launching.JavaRuntime.getVMInstallType(JavaRuntime.java:421)
+	at org.eclipse.jdt.internal.launching.JREContainerInitializer.resolveVM(JREContainerInitializer.java:151)
+	at org.eclipse.jdt.internal.launching.JREContainerInitializer.initialize(JREContainerInitializer.java:59)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeContainer(JavaModelManager.java:2868)
+	at org.eclipse.jdt.internal.core.JavaModelManager$10.run(JavaModelManager.java:2774)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeAllContainers(JavaModelManager.java:2812)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getClasspathContainer(JavaModelManager.java:1895)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainer(JavaCore.java:3298)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2693)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2857)
+	at org.eclipse.jdt.internal.core.ClasspathChange.generateDelta(ClasspathChange.java:235)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.resourceChanged(DeltaProcessor.java:2032)
+	at org.eclipse.jdt.internal.core.DeltaProcessingState.resourceChanged(DeltaProcessingState.java:477)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:373)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1470)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:312)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:252)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:247)
+	at org.eclipse.rse.internal.files.ui.resources.SystemRemoteEditManager.createRemoteEditProject(SystemRemoteEditManager.java:334)
+	at org.eclipse.rse.internal.files.ui.resources.SystemRemoteEditManager.getRemoteEditProject(SystemRemoteEditManager.java:284)
+	at org.eclipse.rse.internal.files.ui.Activator$InitRemoteEditJob.run(Activator.java:73)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-10-02 23:53:46.027
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-10-02 23:53:46.027
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Samuel'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2015-10-02 23:53:47.128
+!MESSAGE Can't read workspace state
+!STACK 0
+java.io.EOFException
+	at java.io.ObjectInputStream$PeekInputStream.readFully(Unknown Source)
+	at java.io.ObjectInputStream$BlockDataInputStream.readShort(Unknown Source)
+	at java.io.ObjectInputStream.readStreamHeader(Unknown Source)
+	at java.io.ObjectInputStream.<init>(Unknown Source)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryReader$1.<init>(ProjectRegistryReader.java:67)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryReader.readWorkspaceState(ProjectRegistryReader.java:67)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.<init>(ProjectRegistryManager.java:163)
+	at org.eclipse.m2e.core.internal.MavenPluginActivator.start(MavenPluginActivator.java:211)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:771)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:764)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:721)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:941)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:318)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:571)
+	at org.eclipse.osgi.container.Module.start(Module.java:439)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:454)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:531)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:324)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:327)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:36)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:398)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:352)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:344)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:160)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.Class.getDeclaredConstructors0(Native Method)
+	at java.lang.Class.privateGetDeclaredConstructors(Unknown Source)
+	at java.lang.Class.getConstructor0(Unknown Source)
+	at java.lang.Class.newInstance(Unknown Source)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.loadBundleActivator(BundleContextImpl.java:755)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:706)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:941)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:318)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:571)
+	at org.eclipse.osgi.container.Module.start(Module.java:439)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:454)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:531)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:324)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:327)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:402)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:352)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:344)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:160)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:573)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:174)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:905)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at org.eclipse.jdt.core.JavaCore.computeClasspathContainerInitializer(JavaCore.java:3345)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainerInitializer(JavaCore.java:3321)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeContainer(JavaModelManager.java:2849)
+	at org.eclipse.jdt.internal.core.JavaModelManager$10.run(JavaModelManager.java:2774)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeAllContainers(JavaModelManager.java:2812)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getClasspathContainer(JavaModelManager.java:1895)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainer(JavaCore.java:3298)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2693)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2857)
+	at org.eclipse.jdt.internal.core.ClasspathChange.generateDelta(ClasspathChange.java:235)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.resourceChanged(DeltaProcessor.java:2032)
+	at org.eclipse.jdt.internal.core.DeltaProcessingState.resourceChanged(DeltaProcessingState.java:477)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:373)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1470)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:312)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:252)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:247)
+	at org.eclipse.rse.internal.files.ui.resources.SystemRemoteEditManager.createRemoteEditProject(SystemRemoteEditManager.java:334)
+	at org.eclipse.rse.internal.files.ui.resources.SystemRemoteEditManager.getRemoteEditProject(SystemRemoteEditManager.java:284)
+	at org.eclipse.rse.internal.files.ui.Activator$InitRemoteEditJob.run(Activator.java:73)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-02 23:54:14.284
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-02 23:54:14.715
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-02 23:54:16.691
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-02 23:54:16.693
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.jdt.launching 4 4 2015-10-02 23:54:46.191
+!MESSAGE Exception retrieving system properties: "C:\Program Files\Java\jdk1.8.0_60\bin\javaw.exe" -Xmx16m -classpath C:\Users\Samuel\Documents\eclipse\configuration\org.eclipse.osgi\384\0\.cp\lib\launchingsupport.jar org.eclipse.jdt.internal.launching.support.LegacySystemProperties java.specification.name java.specification.version java.version
+!STACK 1
+org.eclipse.core.runtime.CoreException: Exception retrieving system properties: "C:\Program Files\Java\jdk1.8.0_60\bin\javaw.exe" -Xmx16m -classpath C:\Users\Samuel\Documents\eclipse\configuration\org.eclipse.osgi\384\0\.cp\lib\launchingsupport.jar org.eclipse.jdt.internal.launching.support.LegacySystemProperties java.specification.name java.specification.version java.version
+	at org.eclipse.jdt.launching.AbstractVMInstall.abort(AbstractVMInstall.java:512)
+	at org.eclipse.jdt.launching.AbstractVMInstall.evaluateSystemProperties(AbstractVMInstall.java:455)
+	at org.eclipse.jdt.internal.launching.environments.ExecutionEnvironmentAnalyzer.isFoundation1_0(ExecutionEnvironmentAnalyzer.java:159)
+	at org.eclipse.jdt.internal.launching.environments.ExecutionEnvironmentAnalyzer.analyze(ExecutionEnvironmentAnalyzer.java:98)
+	at org.eclipse.jdt.internal.launching.environments.Analyzer.analyze(Analyzer.java:41)
+	at org.eclipse.jdt.internal.launching.environments.EnvironmentsManager.analyze(EnvironmentsManager.java:344)
+	at org.eclipse.jdt.internal.launching.environments.EnvironmentsManager.initializeCompatibilities(EnvironmentsManager.java:251)
+	at org.eclipse.jdt.internal.launching.environments.ExecutionEnvironment.init(ExecutionEnvironment.java:181)
+	at org.eclipse.jdt.internal.launching.environments.ExecutionEnvironment.getDefaultVM(ExecutionEnvironment.java:223)
+	at org.eclipse.jdt.internal.launching.JREContainerInitializer.resolveVM(JREContainerInitializer.java:175)
+	at org.eclipse.jdt.internal.launching.JREContainerInitializer.resolveVM(JREContainerInitializer.java:142)
+	at org.eclipse.jdt.internal.launching.JREContainerInitializer.initialize(JREContainerInitializer.java:59)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeContainer(JavaModelManager.java:2868)
+	at org.eclipse.jdt.internal.core.JavaModelManager$10.run(JavaModelManager.java:2774)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2241)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeAllContainers(JavaModelManager.java:2814)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getClasspathContainer(JavaModelManager.java:1895)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainer(JavaCore.java:3298)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2693)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2616)
+	at org.eclipse.jdt.internal.core.ClasspathEntry.validateClasspath(ClasspathEntry.java:1733)
+	at org.eclipse.jdt.internal.core.SetClasspathOperation.verify(SetClasspathOperation.java:118)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:783)
+	at org.eclipse.jdt.internal.core.JavaProject.setRawClasspath(JavaProject.java:3097)
+	at org.eclipse.jdt.internal.core.JavaProject.setRawClasspath(JavaProject.java:3059)
+	at org.eclipse.jdt.internal.core.JavaProject.setRawClasspath(JavaProject.java:3071)
+	at org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator.configure(AbstractJavaProjectConfigurator.java:144)
+	at org.eclipse.m2e.core.project.configurator.AbstractLifecycleMapping.configure(AbstractLifecycleMapping.java:120)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$3.call(ProjectConfigurationManager.java:501)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$3.call(ProjectConfigurationManager.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.updateProjectConfiguration(ProjectConfigurationManager.java:494)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.updateProjectConfiguration0(ProjectConfigurationManager.java:432)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$2.call(ProjectConfigurationManager.java:345)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$2.call(ProjectConfigurationManager.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1351)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.updateProjectConfiguration(ProjectConfigurationManager.java:342)
+	at org.eclipse.m2e.core.ui.internal.UpdateMavenProjectJob.runInWorkspace(UpdateMavenProjectJob.java:77)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:39)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 1; Content is not allowed in prolog.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at javax.xml.parsers.DocumentBuilder.parse(Unknown Source)
+	at org.eclipse.jdt.launching.AbstractVMInstall.evaluateSystemProperties(AbstractVMInstall.java:437)
+	... 42 more
+!SUBENTRY 1 org.eclipse.jdt.launching 4 150 2015-10-02 23:54:46.191
+!MESSAGE Exception retrieving system properties: "C:\Program Files\Java\jdk1.8.0_60\bin\javaw.exe" -Xmx16m -classpath C:\Users\Samuel\Documents\eclipse\configuration\org.eclipse.osgi\384\0\.cp\lib\launchingsupport.jar org.eclipse.jdt.internal.launching.support.LegacySystemProperties java.specification.name java.specification.version java.version
+!STACK 0
+org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 1; Content is not allowed in prolog.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at javax.xml.parsers.DocumentBuilder.parse(Unknown Source)
+	at org.eclipse.jdt.launching.AbstractVMInstall.evaluateSystemProperties(AbstractVMInstall.java:437)
+	at org.eclipse.jdt.internal.launching.environments.ExecutionEnvironmentAnalyzer.isFoundation1_0(ExecutionEnvironmentAnalyzer.java:159)
+	at org.eclipse.jdt.internal.launching.environments.ExecutionEnvironmentAnalyzer.analyze(ExecutionEnvironmentAnalyzer.java:98)
+	at org.eclipse.jdt.internal.launching.environments.Analyzer.analyze(Analyzer.java:41)
+	at org.eclipse.jdt.internal.launching.environments.EnvironmentsManager.analyze(EnvironmentsManager.java:344)
+	at org.eclipse.jdt.internal.launching.environments.EnvironmentsManager.initializeCompatibilities(EnvironmentsManager.java:251)
+	at org.eclipse.jdt.internal.launching.environments.ExecutionEnvironment.init(ExecutionEnvironment.java:181)
+	at org.eclipse.jdt.internal.launching.environments.ExecutionEnvironment.getDefaultVM(ExecutionEnvironment.java:223)
+	at org.eclipse.jdt.internal.launching.JREContainerInitializer.resolveVM(JREContainerInitializer.java:175)
+	at org.eclipse.jdt.internal.launching.JREContainerInitializer.resolveVM(JREContainerInitializer.java:142)
+	at org.eclipse.jdt.internal.launching.JREContainerInitializer.initialize(JREContainerInitializer.java:59)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeContainer(JavaModelManager.java:2868)
+	at org.eclipse.jdt.internal.core.JavaModelManager$10.run(JavaModelManager.java:2774)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2241)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeAllContainers(JavaModelManager.java:2814)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getClasspathContainer(JavaModelManager.java:1895)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainer(JavaCore.java:3298)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2693)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2616)
+	at org.eclipse.jdt.internal.core.ClasspathEntry.validateClasspath(ClasspathEntry.java:1733)
+	at org.eclipse.jdt.internal.core.SetClasspathOperation.verify(SetClasspathOperation.java:118)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:783)
+	at org.eclipse.jdt.internal.core.JavaProject.setRawClasspath(JavaProject.java:3097)
+	at org.eclipse.jdt.internal.core.JavaProject.setRawClasspath(JavaProject.java:3059)
+	at org.eclipse.jdt.internal.core.JavaProject.setRawClasspath(JavaProject.java:3071)
+	at org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator.configure(AbstractJavaProjectConfigurator.java:144)
+	at org.eclipse.m2e.core.project.configurator.AbstractLifecycleMapping.configure(AbstractLifecycleMapping.java:120)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$3.call(ProjectConfigurationManager.java:501)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$3.call(ProjectConfigurationManager.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.updateProjectConfiguration(ProjectConfigurationManager.java:494)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.updateProjectConfiguration0(ProjectConfigurationManager.java:432)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$2.call(ProjectConfigurationManager.java:345)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$2.call(ProjectConfigurationManager.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1351)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.updateProjectConfiguration(ProjectConfigurationManager.java:342)
+	at org.eclipse.m2e.core.ui.internal.UpdateMavenProjectJob.runInWorkspace(UpdateMavenProjectJob.java:77)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:39)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-02 23:54:47.820
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-02 23:54:47.823
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-02 23:57:54.559
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-02 23:57:54.561
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.jdt.launching 4 4 2015-10-02 23:59:55.989
+!MESSAGE Exception retrieving system properties: "C:\Program Files\Java\jdk1.8.0_60\bin\javaw.exe" -Xmx16m -classpath C:\Users\Samuel\Documents\eclipse\configuration\org.eclipse.osgi\384\0\.cp\lib\launchingsupport.jar org.eclipse.jdt.internal.launching.support.LegacySystemProperties java.specification.name java.specification.version java.version
+!STACK 1
+org.eclipse.core.runtime.CoreException: Exception retrieving system properties: "C:\Program Files\Java\jdk1.8.0_60\bin\javaw.exe" -Xmx16m -classpath C:\Users\Samuel\Documents\eclipse\configuration\org.eclipse.osgi\384\0\.cp\lib\launchingsupport.jar org.eclipse.jdt.internal.launching.support.LegacySystemProperties java.specification.name java.specification.version java.version
+	at org.eclipse.jdt.launching.AbstractVMInstall.abort(AbstractVMInstall.java:512)
+	at org.eclipse.jdt.launching.AbstractVMInstall.evaluateSystemProperties(AbstractVMInstall.java:455)
+	at org.eclipse.jdt.internal.launching.environments.ExecutionEnvironmentAnalyzer.isFoundation1_0(ExecutionEnvironmentAnalyzer.java:159)
+	at org.eclipse.jdt.internal.launching.environments.ExecutionEnvironmentAnalyzer.analyze(ExecutionEnvironmentAnalyzer.java:98)
+	at org.eclipse.jdt.internal.launching.environments.Analyzer.analyze(Analyzer.java:41)
+	at org.eclipse.jdt.internal.launching.environments.EnvironmentsManager.analyze(EnvironmentsManager.java:344)
+	at org.eclipse.jdt.internal.launching.environments.EnvironmentsManager.vmAdded(EnvironmentsManager.java:386)
+	at org.eclipse.jdt.launching.JavaRuntime.fireVMAdded(JavaRuntime.java:2395)
+	at org.eclipse.jdt.launching.VMStandin.convertToRealVM(VMStandin.java:151)
+	at org.eclipse.jdt.internal.launching.LaunchingPlugin.processVMPrefsChanged(LaunchingPlugin.java:707)
+	at org.eclipse.jdt.internal.launching.LaunchingPlugin.preferenceChange(LaunchingPlugin.java:1264)
+	at org.eclipse.core.internal.preferences.EclipsePreferences$3.run(EclipsePreferences.java:896)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.firePreferenceEvent(EclipsePreferences.java:899)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.put(EclipsePreferences.java:912)
+	at org.eclipse.jdt.internal.debug.ui.jres.JREsUpdater$1.run(JREsUpdater.java:92)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Caused by: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 1; Content is not allowed in prolog.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at javax.xml.parsers.DocumentBuilder.parse(Unknown Source)
+	at org.eclipse.jdt.launching.AbstractVMInstall.evaluateSystemProperties(AbstractVMInstall.java:437)
+	... 15 more
+!SUBENTRY 1 org.eclipse.jdt.launching 4 150 2015-10-02 23:59:55.990
+!MESSAGE Exception retrieving system properties: "C:\Program Files\Java\jdk1.8.0_60\bin\javaw.exe" -Xmx16m -classpath C:\Users\Samuel\Documents\eclipse\configuration\org.eclipse.osgi\384\0\.cp\lib\launchingsupport.jar org.eclipse.jdt.internal.launching.support.LegacySystemProperties java.specification.name java.specification.version java.version
+!STACK 0
+org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 1; Content is not allowed in prolog.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at javax.xml.parsers.DocumentBuilder.parse(Unknown Source)
+	at org.eclipse.jdt.launching.AbstractVMInstall.evaluateSystemProperties(AbstractVMInstall.java:437)
+	at org.eclipse.jdt.internal.launching.environments.ExecutionEnvironmentAnalyzer.isFoundation1_0(ExecutionEnvironmentAnalyzer.java:159)
+	at org.eclipse.jdt.internal.launching.environments.ExecutionEnvironmentAnalyzer.analyze(ExecutionEnvironmentAnalyzer.java:98)
+	at org.eclipse.jdt.internal.launching.environments.Analyzer.analyze(Analyzer.java:41)
+	at org.eclipse.jdt.internal.launching.environments.EnvironmentsManager.analyze(EnvironmentsManager.java:344)
+	at org.eclipse.jdt.internal.launching.environments.EnvironmentsManager.vmAdded(EnvironmentsManager.java:386)
+	at org.eclipse.jdt.launching.JavaRuntime.fireVMAdded(JavaRuntime.java:2395)
+	at org.eclipse.jdt.launching.VMStandin.convertToRealVM(VMStandin.java:151)
+	at org.eclipse.jdt.internal.launching.LaunchingPlugin.processVMPrefsChanged(LaunchingPlugin.java:707)
+	at org.eclipse.jdt.internal.launching.LaunchingPlugin.preferenceChange(LaunchingPlugin.java:1264)
+	at org.eclipse.core.internal.preferences.EclipsePreferences$3.run(EclipsePreferences.java:896)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.firePreferenceEvent(EclipsePreferences.java:899)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.put(EclipsePreferences.java:912)
+	at org.eclipse.jdt.internal.debug.ui.jres.JREsUpdater$1.run(JREsUpdater.java:92)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-02 23:59:56.317
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-02 23:59:56.319
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 00:01:03.709
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 00:01:03.712
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 00:01:20.849
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 00:01:20.852
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.jdt.launching 4 4 2015-10-03 00:02:36.695
+!MESSAGE Failed to retrieve default libraries for C:\Program Files\Java\jdk1.8.0_60\jre
+
+!ENTRY org.eclipse.jdt.launching 4 4 2015-10-03 00:02:39.276
+!MESSAGE Exception retrieving system properties: "C:\Program Files\Java\jdk1.8.0_60\jre\bin\javaw.exe" -Xmx16m -classpath C:\Users\Samuel\Documents\eclipse\configuration\org.eclipse.osgi\384\0\.cp\lib\launchingsupport.jar org.eclipse.jdt.internal.launching.support.LegacySystemProperties java.specification.name java.specification.version java.version
+!STACK 1
+org.eclipse.core.runtime.CoreException: Exception retrieving system properties: "C:\Program Files\Java\jdk1.8.0_60\jre\bin\javaw.exe" -Xmx16m -classpath C:\Users\Samuel\Documents\eclipse\configuration\org.eclipse.osgi\384\0\.cp\lib\launchingsupport.jar org.eclipse.jdt.internal.launching.support.LegacySystemProperties java.specification.name java.specification.version java.version
+	at org.eclipse.jdt.launching.AbstractVMInstall.abort(AbstractVMInstall.java:512)
+	at org.eclipse.jdt.launching.AbstractVMInstall.evaluateSystemProperties(AbstractVMInstall.java:455)
+	at org.eclipse.jdt.internal.launching.environments.ExecutionEnvironmentAnalyzer.isFoundation1_0(ExecutionEnvironmentAnalyzer.java:159)
+	at org.eclipse.jdt.internal.launching.environments.ExecutionEnvironmentAnalyzer.analyze(ExecutionEnvironmentAnalyzer.java:98)
+	at org.eclipse.jdt.internal.launching.environments.Analyzer.analyze(Analyzer.java:41)
+	at org.eclipse.jdt.internal.launching.environments.EnvironmentsManager.analyze(EnvironmentsManager.java:344)
+	at org.eclipse.jdt.internal.launching.environments.EnvironmentsManager.vmAdded(EnvironmentsManager.java:386)
+	at org.eclipse.jdt.internal.launching.environments.EnvironmentsManager.vmChanged(EnvironmentsManager.java:374)
+	at org.eclipse.jdt.launching.JavaRuntime.fireVMChanged(JavaRuntime.java:2380)
+	at org.eclipse.jdt.launching.AbstractVMInstall.setInstallLocation(AbstractVMInstall.java:148)
+	at org.eclipse.jdt.launching.VMStandin.convertToRealVM(VMStandin.java:131)
+	at org.eclipse.jdt.internal.launching.LaunchingPlugin.processVMPrefsChanged(LaunchingPlugin.java:707)
+	at org.eclipse.jdt.internal.launching.LaunchingPlugin.preferenceChange(LaunchingPlugin.java:1264)
+	at org.eclipse.core.internal.preferences.EclipsePreferences$3.run(EclipsePreferences.java:896)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.firePreferenceEvent(EclipsePreferences.java:899)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.put(EclipsePreferences.java:912)
+	at org.eclipse.jdt.internal.debug.ui.jres.JREsUpdater$1.run(JREsUpdater.java:92)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Caused by: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 1; Content is not allowed in prolog.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at javax.xml.parsers.DocumentBuilder.parse(Unknown Source)
+	at org.eclipse.jdt.launching.AbstractVMInstall.evaluateSystemProperties(AbstractVMInstall.java:437)
+	... 17 more
+!SUBENTRY 1 org.eclipse.jdt.launching 4 150 2015-10-03 00:02:39.277
+!MESSAGE Exception retrieving system properties: "C:\Program Files\Java\jdk1.8.0_60\jre\bin\javaw.exe" -Xmx16m -classpath C:\Users\Samuel\Documents\eclipse\configuration\org.eclipse.osgi\384\0\.cp\lib\launchingsupport.jar org.eclipse.jdt.internal.launching.support.LegacySystemProperties java.specification.name java.specification.version java.version
+!STACK 0
+org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 1; Content is not allowed in prolog.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at javax.xml.parsers.DocumentBuilder.parse(Unknown Source)
+	at org.eclipse.jdt.launching.AbstractVMInstall.evaluateSystemProperties(AbstractVMInstall.java:437)
+	at org.eclipse.jdt.internal.launching.environments.ExecutionEnvironmentAnalyzer.isFoundation1_0(ExecutionEnvironmentAnalyzer.java:159)
+	at org.eclipse.jdt.internal.launching.environments.ExecutionEnvironmentAnalyzer.analyze(ExecutionEnvironmentAnalyzer.java:98)
+	at org.eclipse.jdt.internal.launching.environments.Analyzer.analyze(Analyzer.java:41)
+	at org.eclipse.jdt.internal.launching.environments.EnvironmentsManager.analyze(EnvironmentsManager.java:344)
+	at org.eclipse.jdt.internal.launching.environments.EnvironmentsManager.vmAdded(EnvironmentsManager.java:386)
+	at org.eclipse.jdt.internal.launching.environments.EnvironmentsManager.vmChanged(EnvironmentsManager.java:374)
+	at org.eclipse.jdt.launching.JavaRuntime.fireVMChanged(JavaRuntime.java:2380)
+	at org.eclipse.jdt.launching.AbstractVMInstall.setInstallLocation(AbstractVMInstall.java:148)
+	at org.eclipse.jdt.launching.VMStandin.convertToRealVM(VMStandin.java:131)
+	at org.eclipse.jdt.internal.launching.LaunchingPlugin.processVMPrefsChanged(LaunchingPlugin.java:707)
+	at org.eclipse.jdt.internal.launching.LaunchingPlugin.preferenceChange(LaunchingPlugin.java:1264)
+	at org.eclipse.core.internal.preferences.EclipsePreferences$3.run(EclipsePreferences.java:896)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.firePreferenceEvent(EclipsePreferences.java:899)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.put(EclipsePreferences.java:912)
+	at org.eclipse.jdt.internal.debug.ui.jres.JREsUpdater$1.run(JREsUpdater.java:92)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 00:02:39.569
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 00:02:39.571
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 00:02:45.867
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 00:02:45.869
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 00:02:56.311
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 00:02:56.313
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 00:03:15.137
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 00:03:15.139
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 00:03:22.203
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 00:03:22.206
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.jdt.launching 4 4 2015-10-03 00:05:06.808
+!MESSAGE Exception retrieving system properties: "C:\Program Files\Java\jdk1.8.0_60\bin\javaw.exe" -Xmx16m -classpath C:\Users\Samuel\Documents\eclipse\configuration\org.eclipse.osgi\384\0\.cp\lib\launchingsupport.jar org.eclipse.jdt.internal.launching.support.LegacySystemProperties java.specification.name java.specification.version java.version
+!STACK 1
+org.eclipse.core.runtime.CoreException: Exception retrieving system properties: "C:\Program Files\Java\jdk1.8.0_60\bin\javaw.exe" -Xmx16m -classpath C:\Users\Samuel\Documents\eclipse\configuration\org.eclipse.osgi\384\0\.cp\lib\launchingsupport.jar org.eclipse.jdt.internal.launching.support.LegacySystemProperties java.specification.name java.specification.version java.version
+	at org.eclipse.jdt.launching.AbstractVMInstall.abort(AbstractVMInstall.java:512)
+	at org.eclipse.jdt.launching.AbstractVMInstall.evaluateSystemProperties(AbstractVMInstall.java:455)
+	at org.eclipse.jdt.internal.launching.environments.ExecutionEnvironmentAnalyzer.isFoundation1_0(ExecutionEnvironmentAnalyzer.java:159)
+	at org.eclipse.jdt.internal.launching.environments.ExecutionEnvironmentAnalyzer.analyze(ExecutionEnvironmentAnalyzer.java:98)
+	at org.eclipse.jdt.internal.launching.environments.Analyzer.analyze(Analyzer.java:41)
+	at org.eclipse.jdt.internal.launching.environments.EnvironmentsManager.analyze(EnvironmentsManager.java:344)
+	at org.eclipse.jdt.internal.launching.environments.EnvironmentsManager.vmAdded(EnvironmentsManager.java:386)
+	at org.eclipse.jdt.internal.launching.environments.EnvironmentsManager.vmChanged(EnvironmentsManager.java:374)
+	at org.eclipse.jdt.launching.JavaRuntime.fireVMChanged(JavaRuntime.java:2380)
+	at org.eclipse.jdt.launching.AbstractVMInstall.setInstallLocation(AbstractVMInstall.java:148)
+	at org.eclipse.jdt.launching.VMStandin.convertToRealVM(VMStandin.java:131)
+	at org.eclipse.jdt.internal.launching.LaunchingPlugin.processVMPrefsChanged(LaunchingPlugin.java:707)
+	at org.eclipse.jdt.internal.launching.LaunchingPlugin.preferenceChange(LaunchingPlugin.java:1264)
+	at org.eclipse.core.internal.preferences.EclipsePreferences$3.run(EclipsePreferences.java:896)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.firePreferenceEvent(EclipsePreferences.java:899)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.put(EclipsePreferences.java:912)
+	at org.eclipse.jdt.internal.debug.ui.jres.JREsUpdater$1.run(JREsUpdater.java:92)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Caused by: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 1; Content is not allowed in prolog.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at javax.xml.parsers.DocumentBuilder.parse(Unknown Source)
+	at org.eclipse.jdt.launching.AbstractVMInstall.evaluateSystemProperties(AbstractVMInstall.java:437)
+	... 17 more
+!SUBENTRY 1 org.eclipse.jdt.launching 4 150 2015-10-03 00:05:06.809
+!MESSAGE Exception retrieving system properties: "C:\Program Files\Java\jdk1.8.0_60\bin\javaw.exe" -Xmx16m -classpath C:\Users\Samuel\Documents\eclipse\configuration\org.eclipse.osgi\384\0\.cp\lib\launchingsupport.jar org.eclipse.jdt.internal.launching.support.LegacySystemProperties java.specification.name java.specification.version java.version
+!STACK 0
+org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 1; Content is not allowed in prolog.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at javax.xml.parsers.DocumentBuilder.parse(Unknown Source)
+	at org.eclipse.jdt.launching.AbstractVMInstall.evaluateSystemProperties(AbstractVMInstall.java:437)
+	at org.eclipse.jdt.internal.launching.environments.ExecutionEnvironmentAnalyzer.isFoundation1_0(ExecutionEnvironmentAnalyzer.java:159)
+	at org.eclipse.jdt.internal.launching.environments.ExecutionEnvironmentAnalyzer.analyze(ExecutionEnvironmentAnalyzer.java:98)
+	at org.eclipse.jdt.internal.launching.environments.Analyzer.analyze(Analyzer.java:41)
+	at org.eclipse.jdt.internal.launching.environments.EnvironmentsManager.analyze(EnvironmentsManager.java:344)
+	at org.eclipse.jdt.internal.launching.environments.EnvironmentsManager.vmAdded(EnvironmentsManager.java:386)
+	at org.eclipse.jdt.internal.launching.environments.EnvironmentsManager.vmChanged(EnvironmentsManager.java:374)
+	at org.eclipse.jdt.launching.JavaRuntime.fireVMChanged(JavaRuntime.java:2380)
+	at org.eclipse.jdt.launching.AbstractVMInstall.setInstallLocation(AbstractVMInstall.java:148)
+	at org.eclipse.jdt.launching.VMStandin.convertToRealVM(VMStandin.java:131)
+	at org.eclipse.jdt.internal.launching.LaunchingPlugin.processVMPrefsChanged(LaunchingPlugin.java:707)
+	at org.eclipse.jdt.internal.launching.LaunchingPlugin.preferenceChange(LaunchingPlugin.java:1264)
+	at org.eclipse.core.internal.preferences.EclipsePreferences$3.run(EclipsePreferences.java:896)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.firePreferenceEvent(EclipsePreferences.java:899)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.put(EclipsePreferences.java:912)
+	at org.eclipse.jdt.internal.debug.ui.jres.JREsUpdater$1.run(JREsUpdater.java:92)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 00:05:06.970
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 00:05:06.972
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 00:06:39.081
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 00:06:39.083
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 00:06:42.454
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 00:06:42.456
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 00:06:45.274
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 00:06:45.277
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 00:58:02.813
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 00:58:02.815
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+!SESSION 2015-10-03 01:03:35.015 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_60
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.recommenders.chain.rcp 4 0 2015-10-03 01:03:40.636
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.recommenders.chain.rcp [692]
+  Unresolved requirement: Require-Bundle: org.eclipse.recommenders.completion.rcp; bundle-version="[2.2.4,2.2.5)"
+    -> Bundle-SymbolicName: org.eclipse.recommenders.completion.rcp; bundle-version="2.2.4.v20150914-0857"; singleton:="true"
+       org.eclipse.recommenders.completion.rcp [693]
+         No resolution report for the bundle.  Bundle was not resolved because of a uses contraint violation.
+  org.osgi.service.resolver.ResolutionException: Uses constraint violation. Unable to resolve resource org.eclipse.recommenders.chain.rcp [osgi.identity; osgi.identity="org.eclipse.recommenders.chain.rcp"; type="osgi.bundle"; version:Version="2.2.4.v20150914-0857"; singleton:="true"] because it is exposed to package 'com.google.common.base' from resources com.google.guava [osgi.identity; osgi.identity="com.google.guava"; type="osgi.bundle"; version:Version="15.0.0.v201403281430"] and com.google.guava [osgi.identity; osgi.identity="com.google.guava"; type="osgi.bundle"; version:Version="10.0.1.v201203051515"] via two dependency chains.
+
+Chain 1:
+  org.eclipse.recommenders.chain.rcp [osgi.identity; osgi.identity="org.eclipse.recommenders.chain.rcp"; type="osgi.bundle"; version:Version="2.2.4.v20150914-0857"; singleton:="true"]
+    import: (&(osgi.wiring.package=com.google.common.base)(&(version>=15.0.0)(!(version>=16.0.0))))
+     |
+    export: osgi.wiring.package: com.google.common.base
+  com.google.guava [osgi.identity; osgi.identity="com.google.guava"; type="osgi.bundle"; version:Version="15.0.0.v201403281430"]
+
+Chain 2:
+  org.eclipse.recommenders.chain.rcp [osgi.identity; osgi.identity="org.eclipse.recommenders.chain.rcp"; type="osgi.bundle"; version:Version="2.2.4.v20150914-0857"; singleton:="true"]
+    require: (&(osgi.wiring.bundle=org.eclipse.recommenders.completion.rcp)(&(bundle-version>=2.2.4)(!(bundle-version>=2.2.5))))
+     |
+    provide: [osgi.identity; osgi.identity="org.eclipse.recommenders.completion.rcp"; type="osgi.bundle"; version:Version="2.2.4.v20150914-0857"; singleton:="true"] osgi.wiring.bundle; {bundle-version=2.2.4.v20150914-0857, osgi.wiring.bundle=org.eclipse.recommenders.completion.rcp}
+  org.eclipse.recommenders.completion.rcp [osgi.identity; osgi.identity="org.eclipse.recommenders.completion.rcp"; type="osgi.bundle"; version:Version="2.2.4.v20150914-0857"; singleton:="true"]
+    require: (&(osgi.wiring.bundle=com.google.guava)(&(bundle-version>=10.0.0)(!(bundle-version>=11.0.0))))
+     |
+    provide: osgi.wiring.bundle: com.google.guava
+  com.google.guava [osgi.identity; osgi.identity="com.google.guava"; type="osgi.bundle"; version:Version="10.0.1.v201203051515"]
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.recommenders.completion.rcp 4 0 2015-10-03 01:03:40.666
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.recommenders.completion.rcp [693]
+  Bundle was not resolved because of a uses contraint violation.
+  org.osgi.service.resolver.ResolutionException: Uses constraint violation. Unable to resolve resource org.eclipse.recommenders.completion.rcp [osgi.identity; osgi.identity="org.eclipse.recommenders.completion.rcp"; type="osgi.bundle"; version:Version="2.2.4.v20150914-0857"; singleton:="true"] because it is exposed to package 'com.google.common.primitives' from resources com.google.guava [osgi.identity; osgi.identity="com.google.guava"; type="osgi.bundle"; version:Version="10.0.1.v201203051515"] and com.google.guava [osgi.identity; osgi.identity="com.google.guava"; type="osgi.bundle"; version:Version="15.0.0.v201403281430"] via two dependency chains.
+
+Chain 1:
+  org.eclipse.recommenders.completion.rcp [osgi.identity; osgi.identity="org.eclipse.recommenders.completion.rcp"; type="osgi.bundle"; version:Version="2.2.4.v20150914-0857"; singleton:="true"]
+    require: (&(osgi.wiring.bundle=com.google.guava)(&(bundle-version>=10.0.0)(!(bundle-version>=11.0.0))))
+     |
+    provide: osgi.wiring.bundle: com.google.guava
+  com.google.guava [osgi.identity; osgi.identity="com.google.guava"; type="osgi.bundle"; version:Version="10.0.1.v201203051515"]
+
+Chain 2:
+  org.eclipse.recommenders.completion.rcp [osgi.identity; osgi.identity="org.eclipse.recommenders.completion.rcp"; type="osgi.bundle"; version:Version="2.2.4.v20150914-0857"; singleton:="true"]
+    import: (&(osgi.wiring.package=com.google.common.collect)(&(version>=15.0.0)(!(version>=16.0.0))))
+     |
+    export: osgi.wiring.package: com.google.common.collect; uses:=com.google.common.primitives
+    export: osgi.wiring.package=com.google.common.primitives
+  com.google.guava [osgi.identity; osgi.identity="com.google.guava"; type="osgi.bundle"; version:Version="15.0.0.v201403281430"]
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.equinox.ds 2 0 2015-10-03 01:04:11.131
+!MESSAGE [SCR - WorkThread] Timeout occurred! Thread was blocked on processing [QueuedJob] WorkPerformer: org.eclipse.equinox.internal.ds.SCRManager@48182655; actionType 1
+
+!ENTRY org.eclipse.equinox.ds 2 0 2015-10-03 01:04:11.144
+!MESSAGE [SCR] Enabling components of bundle org.eclipse.update.configurator did not complete in 30000 ms 
+
+!ENTRY org.eclipse.e4.ui.di 2 0 2015-10-03 01:04:11.151
+!MESSAGE [SCR] Found components with duplicated names! Details: 
+Component1 : Component[
+	name = org.eclipse.e4.ui.di.events
+	activate = activate
+	deactivate = deactivate
+	modified = 
+	configuration-policy = optional
+	factory = null
+	autoenable = true
+	immediate = false
+	implementation = org.eclipse.e4.ui.internal.di.UIEventObjectSupplier
+	state = Unsatisfied
+	properties = {dependency.injection.annotation=org.eclipse.e4.ui.di.UIEventTopic}
+	serviceFactory = false
+	serviceInterface = [org.eclipse.e4.core.di.suppliers.ExtendedObjectSupplier]
+	references = null
+	located in bundle = org.eclipse.e4.ui.di_1.0.0.v20130515-1857 [960]
+]
+Component2: Component[
+	name = org.eclipse.e4.ui.di.events
+	activate = activate
+	deactivate = deactivate
+	modified = 
+	configuration-policy = optional
+	factory = null
+	autoenable = true
+	immediate = false
+	implementation = org.eclipse.e4.ui.internal.di.UIEventObjectSupplier
+	state = Unsatisfied
+	properties = {dependency.injection.annotation=org.eclipse.e4.ui.di.UIEventTopic}
+	serviceFactory = false
+	serviceInterface = [org.eclipse.e4.core.di.suppliers.ExtendedObjectSupplier]
+	references = null
+	located in bundle = org.eclipse.e4.ui.di_1.1.0.v20150422-0725 [248]
+]  
+
+!ENTRY org.eclipse.equinox.event 2 0 2015-10-03 01:04:11.155
+!MESSAGE [SCR] Found components with duplicated names! Details: 
+Component1 : Component[
+	name = org.eclipse.equinox.event
+	activate = activate
+	deactivate = deactivate
+	modified = 
+	configuration-policy = optional
+	factory = null
+	autoenable = true
+	immediate = false
+	implementation = org.eclipse.equinox.internal.event.EventComponent
+	state = Unsatisfied
+	properties = 
+	serviceFactory = false
+	serviceInterface = [org.osgi.service.event.EventAdmin]
+	references = null
+	located in bundle = org.eclipse.equinox.event_1.3.0.v20130327-1442 [975]
+]
+Component2: Component[
+	name = org.eclipse.equinox.event
+	activate = activate
+	deactivate = deactivate
+	modified = 
+	configuration-policy = optional
+	factory = null
+	autoenable = true
+	immediate = false
+	implementation = org.eclipse.equinox.internal.event.EventComponent
+	state = Unsatisfied
+	properties = 
+	serviceFactory = false
+	serviceInterface = [org.osgi.service.event.EventAdmin]
+	references = null
+	located in bundle = org.eclipse.equinox.event_1.3.100.v20140115-1647 [315]
+]  
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2015-10-03 01:04:11.156
+!MESSAGE [SCR] Found components with duplicated names! Details: 
+Component1 : Component[
+	name = org.eclipse.equinox.p2.transport.ecf
+	activate = activate
+	deactivate = deactivate
+	modified = 
+	configuration-policy = optional
+	factory = null
+	autoenable = true
+	immediate = false
+	implementation = org.eclipse.equinox.internal.p2.transport.ecf.ECFTransportComponent
+	state = Unsatisfied
+	properties = {p2.agent.servicename=org.eclipse.equinox.internal.p2.repository.Transport}
+	serviceFactory = false
+	serviceInterface = [org.eclipse.equinox.p2.core.spi.IAgentServiceFactory]
+	references = null
+	located in bundle = org.eclipse.equinox.p2.transport.ecf_1.1.0.v20130516-1858 [982]
+]
+Component2: Component[
+	name = org.eclipse.equinox.p2.transport.ecf
+	activate = activate
+	deactivate = deactivate
+	modified = 
+	configuration-policy = optional
+	factory = null
+	autoenable = true
+	immediate = false
+	implementation = org.eclipse.equinox.internal.p2.transport.ecf.ECFTransportComponent
+	state = Unsatisfied
+	properties = {p2.agent.servicename=org.eclipse.equinox.internal.p2.repository.Transport}
+	serviceFactory = false
+	serviceInterface = [org.eclipse.equinox.p2.core.spi.IAgentServiceFactory]
+	references = null
+	located in bundle = org.eclipse.equinox.p2.transport.ecf_1.1.100.v20150521-1342 [347]
+]  
+
+!ENTRY org.eclipse.recommenders.completion.rcp.calls 4 0 2015-10-03 01:04:11.232
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.recommenders.completion.rcp.calls [1063]
+  Unresolved requirement: Require-Bundle: org.eclipse.recommenders.completion.rcp
+    -> Bundle-SymbolicName: org.eclipse.recommenders.completion.rcp; bundle-version="2.2.4.v20150914-0857"; singleton:="true"
+       org.eclipse.recommenders.completion.rcp [693]
+         No resolution report for the bundle.  Unresolved requirement: Require-Bundle: org.eclipse.recommenders.extdoc.rcp; resolution:="optional"
+    -> Bundle-SymbolicName: org.eclipse.recommenders.extdoc.rcp; bundle-version="1.0.5.v20130822-0858-b90"; singleton:="true"
+       org.eclipse.recommenders.extdoc.rcp [1071]
+         No resolution report for the bundle.  Bundle was not resolved because of a uses contraint violation.
+  org.osgi.service.resolver.ResolutionException: Uses constraint violation. Unable to resolve resource org.eclipse.recommenders.completion.rcp.calls [osgi.identity; osgi.identity="org.eclipse.recommenders.completion.rcp.calls"; type="osgi.bundle"; version:Version="1.0.5.v20130822-0858-b90"; singleton:="true"] because it is exposed to package 'com.google.common.primitives' from resources com.google.guava [osgi.identity; osgi.identity="com.google.guava"; type="osgi.bundle"; version:Version="10.0.1.v201203051515"] and com.google.guava [osgi.identity; osgi.identity="com.google.guava"; type="osgi.bundle"; version:Version="15.0.0.v201403281430"] via two dependency chains.
+
+Chain 1:
+  org.eclipse.recommenders.completion.rcp.calls [osgi.identity; osgi.identity="org.eclipse.recommenders.completion.rcp.calls"; type="osgi.bundle"; version:Version="1.0.5.v20130822-0858-b90"; singleton:="true"]
+    require: (&(osgi.wiring.bundle=com.google.guava)(&(bundle-version>=10.0.0)(!(bundle-version>=11.0.0))))
+     |
+    provide: osgi.wiring.bundle: com.google.guava
+  com.google.guava [osgi.identity; osgi.identity="com.google.guava"; type="osgi.bundle"; version:Version="10.0.1.v201203051515"]
+
+Chain 2:
+  org.eclipse.recommenders.completion.rcp.calls [osgi.identity; osgi.identity="org.eclipse.recommenders.completion.rcp.calls"; type="osgi.bundle"; version:Version="1.0.5.v20130822-0858-b90"; singleton:="true"]
+    require: (osgi.wiring.bundle=org.eclipse.recommenders.utils)
+     |
+    provide: osgi.wiring.bundle; bundle-version:Version="2.2.4.v20150914-0857"; osgi.wiring.bundle="org.eclipse.recommenders.utils"
+  org.eclipse.recommenders.utils [osgi.identity; osgi.identity="org.eclipse.recommenders.utils"; type="osgi.bundle"; version:Version="2.2.4.v20150914-0857"]
+    import: (&(osgi.wiring.package=com.google.common.collect)(&(version>=15.0.0)(!(version>=16.0.0))))
+     |
+    export: osgi.wiring.package: com.google.common.collect; uses:=com.google.common.primitives
+    export: osgi.wiring.package=com.google.common.primitives
+  com.google.guava [osgi.identity; osgi.identity="com.google.guava"; type="osgi.bundle"; version:Version="15.0.0.v201403281430"]
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.recommenders.completion.rcp.chain 4 0 2015-10-03 01:04:11.366
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.recommenders.completion.rcp.chain [1064]
+  Unresolved requirement: Require-Bundle: org.eclipse.recommenders.completion.rcp
+    -> Bundle-SymbolicName: org.eclipse.recommenders.completion.rcp; bundle-version="2.2.4.v20150914-0857"; singleton:="true"
+       org.eclipse.recommenders.completion.rcp [693]
+         No resolution report for the bundle.  Bundle was not resolved because of a uses contraint violation.
+  org.osgi.service.resolver.ResolutionException: Uses constraint violation. Unable to resolve resource org.eclipse.recommenders.completion.rcp.chain [osgi.identity; osgi.identity="org.eclipse.recommenders.completion.rcp.chain"; type="osgi.bundle"; version:Version="1.0.5.v20130822-0858-b90"; singleton:="true"] because it is exposed to package 'com.google.common.primitives' from resources com.google.guava [osgi.identity; osgi.identity="com.google.guava"; type="osgi.bundle"; version:Version="10.0.1.v201203051515"] and com.google.guava [osgi.identity; osgi.identity="com.google.guava"; type="osgi.bundle"; version:Version="15.0.0.v201403281430"] via two dependency chains.
+
+Chain 1:
+  org.eclipse.recommenders.completion.rcp.chain [osgi.identity; osgi.identity="org.eclipse.recommenders.completion.rcp.chain"; type="osgi.bundle"; version:Version="1.0.5.v20130822-0858-b90"; singleton:="true"]
+    require: (&(osgi.wiring.bundle=com.google.guava)(&(bundle-version>=10.0.0)(!(bundle-version>=11.0.0))))
+     |
+    provide: osgi.wiring.bundle: com.google.guava
+  com.google.guava [osgi.identity; osgi.identity="com.google.guava"; type="osgi.bundle"; version:Version="10.0.1.v201203051515"]
+
+Chain 2:
+  org.eclipse.recommenders.completion.rcp.chain [osgi.identity; osgi.identity="org.eclipse.recommenders.completion.rcp.chain"; type="osgi.bundle"; version:Version="1.0.5.v20130822-0858-b90"; singleton:="true"]
+    require: (osgi.wiring.bundle=org.eclipse.recommenders.utils)
+     |
+    provide: osgi.wiring.bundle; bundle-version:Version="2.2.4.v20150914-0857"; osgi.wiring.bundle="org.eclipse.recommenders.utils"
+  org.eclipse.recommenders.utils [osgi.identity; osgi.identity="org.eclipse.recommenders.utils"; type="osgi.bundle"; version:Version="2.2.4.v20150914-0857"]
+    import: (&(osgi.wiring.package=com.google.common.collect)(&(version>=15.0.0)(!(version>=16.0.0))))
+     |
+    export: osgi.wiring.package: com.google.common.collect; uses:=com.google.common.primitives
+    export: osgi.wiring.package=com.google.common.primitives
+  com.google.guava [osgi.identity; osgi.identity="com.google.guava"; type="osgi.bundle"; version:Version="15.0.0.v201403281430"]
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.recommenders.completion.rcp.overrides 4 0 2015-10-03 01:04:11.465
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.recommenders.completion.rcp.overrides [1066]
+  Unresolved requirement: Require-Bundle: org.eclipse.recommenders.completion.rcp
+    -> Bundle-SymbolicName: org.eclipse.recommenders.completion.rcp; bundle-version="2.2.4.v20150914-0857"; singleton:="true"
+       org.eclipse.recommenders.completion.rcp [693]
+         No resolution report for the bundle.  Bundle was not resolved because of a uses contraint violation.
+  org.osgi.service.resolver.ResolutionException: Uses constraint violation. Unable to resolve resource org.eclipse.recommenders.completion.rcp.overrides [osgi.identity; osgi.identity="org.eclipse.recommenders.completion.rcp.overrides"; type="osgi.bundle"; version:Version="1.0.5.v20130822-0858-b90"; singleton:="true"] because it is exposed to package 'com.google.common.primitives' from resources com.google.guava [osgi.identity; osgi.identity="com.google.guava"; type="osgi.bundle"; version:Version="10.0.1.v201203051515"] and com.google.guava [osgi.identity; osgi.identity="com.google.guava"; type="osgi.bundle"; version:Version="15.0.0.v201403281430"] via two dependency chains.
+
+Chain 1:
+  org.eclipse.recommenders.completion.rcp.overrides [osgi.identity; osgi.identity="org.eclipse.recommenders.completion.rcp.overrides"; type="osgi.bundle"; version:Version="1.0.5.v20130822-0858-b90"; singleton:="true"]
+    require: (&(osgi.wiring.bundle=com.google.guava)(&(bundle-version>=10.0.0)(!(bundle-version>=11.0.0))))
+     |
+    provide: osgi.wiring.bundle: com.google.guava
+  com.google.guava [osgi.identity; osgi.identity="com.google.guava"; type="osgi.bundle"; version:Version="10.0.1.v201203051515"]
+
+Chain 2:
+  org.eclipse.recommenders.completion.rcp.overrides [osgi.identity; osgi.identity="org.eclipse.recommenders.completion.rcp.overrides"; type="osgi.bundle"; version:Version="1.0.5.v20130822-0858-b90"; singleton:="true"]
+    require: (osgi.wiring.bundle=org.eclipse.recommenders.utils)
+     |
+    provide: osgi.wiring.bundle; bundle-version:Version="2.2.4.v20150914-0857"; osgi.wiring.bundle="org.eclipse.recommenders.utils"
+  org.eclipse.recommenders.utils [osgi.identity; osgi.identity="org.eclipse.recommenders.utils"; type="osgi.bundle"; version:Version="2.2.4.v20150914-0857"]
+    import: (&(osgi.wiring.package=com.google.common.collect)(&(version>=15.0.0)(!(version>=16.0.0))))
+     |
+    export: osgi.wiring.package: com.google.common.collect; uses:=com.google.common.primitives
+    export: osgi.wiring.package=com.google.common.primitives
+  com.google.guava [osgi.identity; osgi.identity="com.google.guava"; type="osgi.bundle"; version:Version="15.0.0.v201403281430"]
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.recommenders.completion.rcp.templates 4 0 2015-10-03 01:04:11.584
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.recommenders.completion.rcp.templates [1068]
+  Unresolved requirement: Require-Bundle: org.eclipse.recommenders.completion.rcp.calls
+    -> Bundle-SymbolicName: org.eclipse.recommenders.completion.rcp.calls; bundle-version="1.0.5.v20130822-0858-b90"; singleton:="true"
+       org.eclipse.recommenders.completion.rcp.calls [1063]
+         Unresolved requirement: Require-Bundle: org.eclipse.recommenders.completion.rcp
+           -> Bundle-SymbolicName: org.eclipse.recommenders.completion.rcp; bundle-version="2.2.4.v20150914-0857"; singleton:="true"
+              org.eclipse.recommenders.completion.rcp [693]
+                No resolution report for the bundle.         Unresolved requirement: Require-Bundle: org.eclipse.recommenders.extdoc.rcp; resolution:="optional"
+           -> Bundle-SymbolicName: org.eclipse.recommenders.extdoc.rcp; bundle-version="1.0.5.v20130822-0858-b90"; singleton:="true"
+              org.eclipse.recommenders.extdoc.rcp [1071]
+                No resolution report for the bundle.  Unresolved requirement: Require-Bundle: org.eclipse.recommenders.completion.rcp
+    -> Bundle-SymbolicName: org.eclipse.recommenders.completion.rcp; bundle-version="2.2.4.v20150914-0857"; singleton:="true"
+  Bundle was not resolved because of a uses contraint violation.
+  org.osgi.service.resolver.ResolutionException: Uses constraint violation. Unable to resolve resource org.eclipse.recommenders.completion.rcp.templates [osgi.identity; osgi.identity="org.eclipse.recommenders.completion.rcp.templates"; type="osgi.bundle"; version:Version="1.0.5.v20130822-0858-b90"; singleton:="true"] because it is exposed to package 'com.google.common.primitives' from resources com.google.guava [osgi.identity; osgi.identity="com.google.guava"; type="osgi.bundle"; version:Version="10.0.1.v201203051515"] and com.google.guava [osgi.identity; osgi.identity="com.google.guava"; type="osgi.bundle"; version:Version="15.0.0.v201403281430"] via two dependency chains.
+
+Chain 1:
+  org.eclipse.recommenders.completion.rcp.templates [osgi.identity; osgi.identity="org.eclipse.recommenders.completion.rcp.templates"; type="osgi.bundle"; version:Version="1.0.5.v20130822-0858-b90"; singleton:="true"]
+    require: (&(osgi.wiring.bundle=com.google.guava)(&(bundle-version>=10.0.0)(!(bundle-version>=11.0.0))))
+     |
+    provide: osgi.wiring.bundle: com.google.guava
+  com.google.guava [osgi.identity; osgi.identity="com.google.guava"; type="osgi.bundle"; version:Version="10.0.1.v201203051515"]
+
+Chain 2:
+  org.eclipse.recommenders.completion.rcp.templates [osgi.identity; osgi.identity="org.eclipse.recommenders.completion.rcp.templates"; type="osgi.bundle"; version:Version="1.0.5.v20130822-0858-b90"; singleton:="true"]
+    require: (osgi.wiring.bundle=org.eclipse.recommenders.utils)
+     |
+    provide: osgi.wiring.bundle; bundle-version:Version="2.2.4.v20150914-0857"; osgi.wiring.bundle="org.eclipse.recommenders.utils"
+  org.eclipse.recommenders.utils [osgi.identity; osgi.identity="org.eclipse.recommenders.utils"; type="osgi.bundle"; version:Version="2.2.4.v20150914-0857"]
+    import: (&(osgi.wiring.package=com.google.common.collect)(&(version>=15.0.0)(!(version>=16.0.0))))
+     |
+    export: osgi.wiring.package: com.google.common.collect; uses:=com.google.common.primitives
+    export: osgi.wiring.package=com.google.common.primitives
+  com.google.guava [osgi.identity; osgi.identity="com.google.guava"; type="osgi.bundle"; version:Version="15.0.0.v201403281430"]
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.recommenders.extdoc.rcp 4 0 2015-10-03 01:04:11.655
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.recommenders.extdoc.rcp [1071]
+  Bundle was not resolved because of a uses contraint violation.
+  org.osgi.service.resolver.ResolutionException: Uses constraint violation. Unable to resolve resource org.eclipse.recommenders.extdoc.rcp [osgi.identity; osgi.identity="org.eclipse.recommenders.extdoc.rcp"; type="osgi.bundle"; version:Version="1.0.5.v20130822-0858-b90"; singleton:="true"] because it is exposed to package 'com.google.common.primitives' from resources com.google.guava [osgi.identity; osgi.identity="com.google.guava"; type="osgi.bundle"; version:Version="10.0.1.v201203051515"] and com.google.guava [osgi.identity; osgi.identity="com.google.guava"; type="osgi.bundle"; version:Version="15.0.0.v201403281430"] via two dependency chains.
+
+Chain 1:
+  org.eclipse.recommenders.extdoc.rcp [osgi.identity; osgi.identity="org.eclipse.recommenders.extdoc.rcp"; type="osgi.bundle"; version:Version="1.0.5.v20130822-0858-b90"; singleton:="true"]
+    require: (&(osgi.wiring.bundle=com.google.guava)(&(bundle-version>=10.0.0)(!(bundle-version>=11.0.0))))
+     |
+    provide: osgi.wiring.bundle: com.google.guava
+  com.google.guava [osgi.identity; osgi.identity="com.google.guava"; type="osgi.bundle"; version:Version="10.0.1.v201203051515"]
+
+Chain 2:
+  org.eclipse.recommenders.extdoc.rcp [osgi.identity; osgi.identity="org.eclipse.recommenders.extdoc.rcp"; type="osgi.bundle"; version:Version="1.0.5.v20130822-0858-b90"; singleton:="true"]
+    require: (osgi.wiring.bundle=org.eclipse.recommenders.utils)
+     |
+    provide: osgi.wiring.bundle; bundle-version:Version="2.2.4.v20150914-0857"; osgi.wiring.bundle="org.eclipse.recommenders.utils"
+  org.eclipse.recommenders.utils [osgi.identity; osgi.identity="org.eclipse.recommenders.utils"; type="osgi.bundle"; version:Version="2.2.4.v20150914-0857"]
+    import: (&(osgi.wiring.package=com.google.common.collect)(&(version>=15.0.0)(!(version>=16.0.0))))
+     |
+    export: osgi.wiring.package: com.google.common.collect; uses:=com.google.common.primitives
+    export: osgi.wiring.package=com.google.common.primitives
+  com.google.guava [osgi.identity; osgi.identity="com.google.guava"; type="osgi.bundle"; version:Version="15.0.0.v201403281430"]
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-10-03 01:04:34.209
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-10-03 01:04:34.210
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Samuel'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 01:04:53.348
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 01:04:53.351
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 01:05:46.454
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 01:05:46.457
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 01:07:23.692
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 01:07:23.695
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 04:32:34.361
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 04:32:34.363
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 04:34:22.937
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 04:34:22.940
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 04:36:52.610
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 04:36:52.612
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 04:41:46.136
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 04:41:46.138
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 04:48:51.610
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 04:48:51.611
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 05:05:08.560
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 05:05:08.562
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 05:28:55.268
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 05:28:55.270
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 05:29:18.981
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 05:29:18.982
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 05:29:20.074
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 05:29:20.076
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 05:30:03.653
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 05:30:03.656
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 05:46:57.115
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 05:46:57.117
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 06:26:44.626
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 06:26:44.629
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 06:27:18.773
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 06:27:18.775
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 06:27:42.067
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 06:27:42.070
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 06:32:59.674
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 06:32:59.676
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 07:31:13.913
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 07:31:13.914
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 07:38:26.850
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 07:38:26.852
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 07:40:09.609
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 07:40:09.612
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 07:40:26.964
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 07:40:26.966
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 07:41:46.339
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 07:41:46.341
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 08:55:03.937
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 08:55:03.940
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 08:56:04.874
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 08:56:04.876
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 08:56:07.987
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 08:56:07.988
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 08:58:24.711
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 08:58:24.713
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 09:04:06.729
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 09:04:06.730
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 09:06:38.471
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 09:06:38.473
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 09:08:02.252
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 09:08:02.254
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 09:10:02.346
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 09:10:02.348
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 09:11:01.395
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 09:11:01.398
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 09:15:35.084
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 09:15:35.086
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 09:21:50.571
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 09:21:50.575
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 09:21:53.804
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 09:21:53.806
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 09:22:28.316
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 09:22:28.318
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 09:24:46.184
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 09:24:46.186
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 09:25:31.310
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 09:25:31.312
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 09:25:51.007
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 09:25:51.009
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 09:27:18.187
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 09:27:18.189
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 09:27:37.077
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 09:27:37.079
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 09:29:11.592
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 09:29:11.594
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 09:29:14.779
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 09:29:14.781
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 09:29:31.758
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 09:29:31.760
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 09:31:20.366
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 09:31:20.367
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 09:32:00.112
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 09:32:00.113
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 09:36:48.004
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 09:36:48.006
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 09:39:51.097
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 09:39:51.099
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 09:39:52.112
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 09:39:52.114
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 09:47:28.360
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 09:47:28.361
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 09:48:15.282
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 09:48:15.283
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 09:49:06.568
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 09:49:06.570
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 09:50:19.572
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 09:50:19.574
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 10:01:44.483
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 10:01:44.485
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 10:03:37.796
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 10:03:37.797
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 10:05:46.729
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 10:05:46.730
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 10:08:55.414
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 10:08:55.417
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 10:08:56.484
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 10:08:56.486
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 10:09:25.003
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 10:09:25.004
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 10:17:42.344
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 10:17:42.346
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 10:17:43.410
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 10:17:43.412
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 10:18:17.702
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 10:18:17.703
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 10:19:05.728
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 10:19:05.730
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 10:19:47.811
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 10:19:47.813
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 10:21:11.698
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 10:21:11.700
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 10:22:08.707
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 10:22:08.708
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 10:22:25.841
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 10:22:25.843
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 10:29:57.471
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 10:29:57.473
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 10:30:39.925
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 10:30:39.927
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 10:31:13.455
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 10:31:13.456
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 10:31:43.834
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 10:31:43.835
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 10:32:04.336
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-03 10:32:04.338
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 02:11:20.760
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-07 02:11:20.834
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!

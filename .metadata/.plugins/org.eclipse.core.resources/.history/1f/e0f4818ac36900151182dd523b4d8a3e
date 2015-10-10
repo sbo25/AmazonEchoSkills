@@ -1,0 +1,35 @@
+{
+  "intents": [
+	{ "intent": "EventsThisWeek",
+	  "slots": []
+	},
+    {
+      "intent": "HeyLebron",
+      "slots": []
+    },
+	{
+		"intent": "PlayLBJmusic",
+		"slots": []
+	},
+	{
+		"intent": "MyDayGood",
+		"slots": [
+        {
+          "name": "goodSlotName",
+          "type": "GOOD_LEXICON"
+        }
+		]
+	},
+        
+		{"intent": "MyDayBad",
+		"slots": [
+		{
+          "name": "badSlotName",
+          "type": "BAD_LEXICON"
+        }
+  		]
+		}
+    ]
+}
+  ]
+}

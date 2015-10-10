@@ -1,0 +1,12 @@
+{
+  "intents": [
+    {
+      "intent": "Events",
+      "slots": []
+    },
+    {
+      "intent": "HelpIntent",
+      "slots": []
+    }
+  ]
+}
